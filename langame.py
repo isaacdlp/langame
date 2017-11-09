@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 from random import choice
-import warnings, sys
+import warnings, sys, json
 warnings.simplefilter("ignore")
 
 
@@ -11,16 +11,20 @@ genders = {
 }
 
 filebase = "langame"
-action = "play"
+focus = None
+
+action = "update"
 if len(sys.argv) > 1:
     action = sys.argv[1]
+    if len(sys.argv) > 2:
+        focus = sys.argv[2].upper().split(",")
 
 if action == "update":
 
+    # Update the JSON dictionary
+
     wb = load_workbook(filename="%s.xlsx" % filebase)
-
     sh = wb["WORDLDS"]
-
     langs = []
 
     col = 1
@@ -39,53 +43,81 @@ if action == "update":
     while True:
         row += 1
         if concept is not None:
-            words[concept] = word
+            if len(word) > 0:
+                words[concept] = word
         concept = sh.cell(row=row, column=1).value
         if concept is None:
             break
         word = {}
         for col, lang in enumerate(langs):
-            con = {}
+            con = []
             col += 2
             cell = sh.cell(row=row, column=col)
             sym = cell.value
             if sym is not None:
-                con["sym"] = sym
+                con.append(sym)
                 gender = cell.fill.start_color.index
                 gen = genders[gender] if gender in genders else None
                 if gen is not None:
-                    con["gen"] = gen
+                    con.append(gen)
                 word[lang] = con
 
-# In Python 3 keys() is an iterator, not a list
-points = 0
-for num in range(1, 11):
-    concepts = list(words.keys())
-    concept = choice(concepts)
-    lang = choice(langs)
-    word = words[concept]
-    if lang in word:
-        con = word[lang]
-        sym = con["sym"]
-        gen = con["gen"] if "gen" in con else None
+    print("Writing %i words to JSON" % len(words))
+    with open("%s.json" % filebase, "w") as f:
+        json.dump(words, f)
 
-    print("Question %i: '%s' in %s" % (num, concept, lang))
-    response = input()
-    if response.lower() == sym.lower():
-        print("Correct!")
-        points += 0.5
-    else:
-        print("Wrong! It is %s" % sym)
-    if gen is not None:
-        print("Which gender is it? [M]asculine, [N]eutral or [F]emenine?")
+else:
+
+    # Play the game!
+
+    with open("%s.json" % filebase, "r") as f:
+        words = json.load(f)
+
+    concepts = list(words.keys())
+    used = []
+
+    # In Python 3 keys() is an iterator, not a list
+    points = 0
+    for num in range(1, 11):
+        concept = None
+        lang = None
+        sym = None
+        gen = None
+        for i in range(100):
+            concept = choice(concepts)
+            word = words[concept]
+            langs = list(word.keys())
+            lang = choice(langs).upper()
+            if focus is None or lang in focus:
+                pair = "%s@%s" % (concept, lang)
+                if pair not in used:
+                    used.append(pair)
+                    con = word[lang]
+                    sym = con[0]
+                    gen = con[1] if len(con) > 1 else None
+                    break
+
+        if sym is None:
+            print("Not enough words!")
+            break
+
+        print("Question %i: '%s' in %s" % (num, concept, lang))
         response = input()
-        if response.lower() == gen.lower():
-            print("Correct!")
+        if response.lower() == sym.lower():
+            print("RIGHT! It is '%s'" % sym)
             points += 0.5
         else:
-            print("Wrong! It is %s" % gen)
-    else:
-        points += 0.5
+            print("WRONG! It is '%s'" % sym)
+        if gen is not None:
+            print("Which gender is it? [M]asculine, [N]eutral or [F]emenine?")
+            response = input()
+            if response.lower() == gen.lower():
+                print("RIGHT! It is '%s'" % gen)
+                points += 0.5
+            else:
+                print("WRONG! It is '%s'" % gen)
+        else:
+            points += 0.5
 
-print("Total points: %d" % points)
-print("Thank you for playing!")
+    print("Total points: %d" % points)
+    print("Thank you for playing!")
