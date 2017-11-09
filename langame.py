@@ -1,7 +1,17 @@
 from openpyxl import load_workbook
 from random import choice
-import warnings, sys, json
+import warnings, sys, json, re, unicodedata
 warnings.simplefilter("ignore")
+
+
+filebase = "langame"
+focus = None
+
+action = "play"
+if len(sys.argv) > 1:
+    action = sys.argv[1]
+    if len(sys.argv) > 2:
+        focus = sys.argv[2].upper().split(",")
 
 
 genders = {
@@ -10,14 +20,46 @@ genders = {
     6: "N"
 }
 
-filebase = "langame"
-focus = None
+inputs = {
+    "M": "M, М",
+    "F": "F, Ф",
+    "N": "N, Н"
+}
 
-action = "update"
-if len(sys.argv) > 1:
-    action = sys.argv[1]
-    if len(sys.argv) > 2:
-        focus = sys.argv[2].upper().split(",")
+clean_reg = re.compile("[^\w ]+")
+spaces_reg = re.compile("[ ]+")
+normal_reg = re.compile("[À-ÿьъ]+")
+
+def do_clean(text):
+    text = clean_reg.sub("", text).lower()
+    text = spaces_reg.sub(" ", text)
+    return text
+
+def do_normal(text):
+    for raw in normal_reg.findall(text):
+        normal = unicodedata.normalize("NFD", raw).encode("ascii", "ignore").decode("utf-8")
+        text = text.replace(raw, normal)
+    text = spaces_reg.sub(" ", text)
+    return text
+
+def do_eval(guess, solutions):
+    match = "WRONG"
+    points = 0
+    clean_guess = do_clean(guess)
+    normal_guess = do_normal(clean_guess)
+    for solution in solutions.split(", "):
+        clean_sol = do_clean(solution)
+        if clean_guess == clean_sol:
+            match = "RIGHT"
+            points = 0.5
+            break
+        else:
+            normal_sol = do_normal(clean_sol)
+            if normal_guess == normal_sol:
+                match = "ALMOST"
+                points = 0.25
+    return match, points
+
 
 if action == "update":
 
@@ -77,8 +119,10 @@ else:
     used = []
 
     # In Python 3 keys() is an iterator, not a list
-    points = 0
-    for num in range(1, 11):
+    rounds = 0
+    score = 0.0
+    while True:
+        rounds += 1
         concept = None
         lang = None
         sym = None
@@ -101,23 +145,23 @@ else:
             print("Not enough words!")
             break
 
-        print("Question %i: '%s' in %s" % (num, concept, lang))
-        response = input()
-        if response.lower() == sym.lower():
-            print("RIGHT! It is '%s'" % sym)
-            points += 0.5
-        else:
-            print("WRONG! It is '%s'" % sym)
+        print("Round %i [%.2f] '%s' in %s" % (rounds, score, concept, lang))
+        guess = input()
+        if guess == "@":
+            break
+        result, points = do_eval(guess, sym)
+        print("%s! It is '%s'" % (result, sym))
         if gen is not None:
             print("Which gender is it? [M]asculine, [N]eutral or [F]emenine?")
-            response = input()
-            if response.lower() == gen.lower():
-                print("RIGHT! It is '%s'" % gen)
-                points += 0.5
-            else:
-                print("WRONG! It is '%s'" % gen)
+            guess = input()
+            result, pts = do_eval(guess, inputs[gen])
+            print("%s! It is '%s'" % (result, gen))
+            points += pts
         else:
-            points += 0.5
+            points *= 2
+        score += points
 
-    print("Total points: %d" % points)
+    rounds -= 1
+    accuracy = score / rounds if rounds > 1 else 0
+    print("Total points [%.2f] rounds [%i] accuracy [%.2f%s]" % (score, rounds, accuracy, "%"))
     print("Thank you for playing!")
