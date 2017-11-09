@@ -6,8 +6,8 @@ warnings.simplefilter("ignore")
 
 genders = {
     4: "M",
-    6: "N",
-    9: "F"
+    5: "F",
+    6: "N"
 }
 
 filebase = "langame"
