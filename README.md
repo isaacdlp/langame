@@ -50,7 +50,7 @@ Run the following line to play the game:
 
 There are a couple of command-line parameters that can be used to customize the experience:
 
-* `python langame.py play <lang_focus> <word_focus>`
+`python langame.py play <lang_focus> <word_focus>`
 
 `lang_focus` can be a language or comma-separated language list to focus on.
 Only questions from these languages will be asked if found.
