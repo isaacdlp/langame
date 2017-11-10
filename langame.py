@@ -1,17 +1,40 @@
+# Copyright (c) 2017 Isaac de la Pena (isaacdlp@alum.mit.edu)
+#
+# Open-sourced according to the MIT LICENSE
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+
+
 from openpyxl import load_workbook
 from random import choice
+import collections as co
 import warnings, sys, json, re, unicodedata
 warnings.simplefilter("ignore")
 
 
 filebase = "langame"
-focus = None
+lang_focus = None
+word_focus = 0
 
 action = "play"
 if len(sys.argv) > 1:
     action = sys.argv[1]
     if len(sys.argv) > 2:
-        focus = sys.argv[2].upper().split(",")
+        lang_focus = sys.argv[2].upper().split(",")
+        map(lambda x: x.upper(), lang_focus)
+        if "ALL" in lang_focus:
+            lang_focus = None
+        if len(sys.argv) > 3:
+            try:
+                word_focus = int(sys.argv[3])
+            except:
+                print("Wrong word focus number")
 
 
 genders = {
@@ -26,20 +49,19 @@ inputs = {
     "N": "N, Н"
 }
 
-clean_reg = re.compile("[^\w ]+")
-spaces_reg = re.compile("[ ]+")
+clean_reg = re.compile("[^\w]+")
 normal_reg = re.compile("[À-ÿьъ]+")
 
 def do_clean(text):
     text = clean_reg.sub("", text).lower()
-    text = spaces_reg.sub(" ", text)
     return text
 
 def do_normal(text):
     for raw in normal_reg.findall(text):
         normal = unicodedata.normalize("NFD", raw).encode("ascii", "ignore").decode("utf-8")
         text = text.replace(raw, normal)
-    text = spaces_reg.sub(" ", text)
+    text = text.replace("й", "и")
+    text = text.replace("ы", "и")
     return text
 
 def do_eval(guess, solutions):
@@ -76,9 +98,9 @@ if action == "update":
         if lang is None:
             break
         else:
-            langs.append(lang)
+            langs.append(lang.upper())
 
-    words = {}
+    words = co.OrderedDict()
     concept = None
 
     row = 1
@@ -106,19 +128,22 @@ if action == "update":
 
     print("Writing %i words to JSON" % len(words))
     with open("%s.json" % filebase, "w") as f:
-        json.dump(words, f)
+        json.dump(list(words.items()), f)
 
 else:
 
     # Play the game!
 
     with open("%s.json" % filebase, "r") as f:
-        words = json.load(f)
-
-    concepts = list(words.keys())
-    used = []
+        words = co.OrderedDict(json.load(f))
 
     # In Python 3 keys() is an iterator, not a list
+    concepts = list(words.keys())
+    if word_focus > 0 and not word_focus > len(concepts):
+        concepts = concepts[-word_focus:]
+    used = []
+
+
     rounds = 0
     score = 0.0
     while True:
@@ -132,7 +157,7 @@ else:
             word = words[concept]
             langs = list(word.keys())
             lang = choice(langs).upper()
-            if focus is None or lang in focus:
+            if lang_focus is None or lang in lang_focus:
                 pair = "%s@%s" % (concept, lang)
                 if pair not in used:
                     used.append(pair)
