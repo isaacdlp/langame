@@ -40,7 +40,7 @@ Run the following line to play the game:
     * A partial match additionally ignores:
         * Stress marks (e.g. accepts Spanish "o" for "ó" or "ô")
         * Some inflection marks (e.g. Russian "ь" or "ъ")
-        * Some particular letter groups (e.g. Russian "И" for "Ы" or "Й")
+        * Some particular letter groups (e.g. Russian "и" for "ы" or "й")
         * Customize this as needed for your learning
     * Run as many rounds as you want, stop at any point by typing `@`
     * You will visualize some basic performance stats
@@ -50,17 +50,17 @@ Run the following line to play the game:
 
 There are a couple of command-line parameters that can be used to customize the experience:
 
-`python langame.py play <lang_focus> <word_focus>`
+* `python langame.py play <lang_focus> <word_focus>`
 
 `lang_focus` can be a language or comma-separated language list to focus on.
 Only questions from these languages will be asked if found.
 `ALL` refers to all possible languages (no focus)
 
-`python langame.py play ru`
-`python langame.py play it,pt`
+* `python langame.py play ru`
+* `python langame.py play it,pt`
 
 `word_focus` is the number of concepts to focus on, starting from the end.
 LanGame keeps the concepts stored in an ordered dictionary, so that you can focus on the most recently added concepts.
 
-`python langame.py play it,pt 100`
-`python langame.py play all 25`
+* `python langame.py play it,pt 100`
+* `python langame.py play all 25`
