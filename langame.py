@@ -22,7 +22,7 @@ filebase = "langame"
 lang_focus = None
 word_focus = 0
 
-action = "play"
+action = "update"
 if len(sys.argv) > 1:
     action = sys.argv[1]
     if len(sys.argv) > 2:
@@ -88,7 +88,7 @@ if action == "update":
     # Update the JSON dictionary
 
     wb = load_workbook(filename="%s.xlsx" % filebase)
-    sh = wb["WORDLDS"]
+    sh = wb[wb.sheetnames[0]]
     langs = []
 
     col = 1
