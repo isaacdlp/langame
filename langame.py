@@ -22,7 +22,7 @@ filebase = "langame"
 lang_focus = None
 word_focus = 0
 
-action = "update"
+action = "play"
 if len(sys.argv) > 1:
     action = sys.argv[1]
     if len(sys.argv) > 2:
@@ -51,6 +51,8 @@ inputs = {
 
 clean_reg = re.compile("[^\w]+")
 normal_reg = re.compile("[À-ÿьъ]+")
+repeat_reg = re.compile("((\w)\\2{1,})")
+replacements = (("й", "и"), ("ы", "и"), ("щ", "ш"), ("в", "б"))
 
 def do_clean(text):
     text = clean_reg.sub("", text).lower()
@@ -60,8 +62,10 @@ def do_normal(text):
     for raw in normal_reg.findall(text):
         normal = unicodedata.normalize("NFD", raw).encode("ascii", "ignore").decode("utf-8")
         text = text.replace(raw, normal)
-    text = text.replace("й", "и")
-    text = text.replace("ы", "и")
+    for replacement in replacements:
+        text = text.replace(replacement[0], replacement[1])
+    for repeat in repeat_reg.findall(text):
+        text = text.replace(repeat[0], repeat[1])
     return text
 
 def do_eval(guess, solutions):
@@ -187,6 +191,6 @@ else:
         score += points
 
     rounds -= 1
-    accuracy = score / rounds if rounds > 1 else 0
-    print("Total points [%.2f] rounds [%i] accuracy [%.2f%s]" % (score, rounds, accuracy, "%"))
+    accuracy = (score / rounds) * 100 if rounds > 0 else 0
+    print("Total points [%.2f] rounds [%i] accuracy [%.2f%%]" % (score, rounds, accuracy))
     print("Thank you for playing!")

@@ -38,6 +38,7 @@ Run the following line to play the game:
     * Full matches score one point, partial matches score half.
     * A full match only considers letters (i.e. ignores whitespace and symbols)
     * A partial match additionally ignores:
+        * Repeated letters (e.g. accepts Italian "Sapere" for "Sappere")
         * Stress marks (e.g. accepts Spanish "o" for "ó" or "ô")
         * Some inflection marks (e.g. Russian "ь" or "ъ")
         * Some particular letter groups (e.g. Russian "и" for "ы" or "й")
