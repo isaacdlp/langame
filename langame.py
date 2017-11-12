@@ -49,12 +49,15 @@ inputs = {
     "N": "N, Н"
 }
 
+note_reg = re.compile("\([^\)]+\)")
 clean_reg = re.compile("[^\w]+")
 normal_reg = re.compile("[À-ÿьъ]+")
 repeat_reg = re.compile("((\w)\\2{1,})")
 replacements = (("й", "и"), ("ы", "и"), ("щ", "ш"), ("в", "б"))
 
 def do_clean(text):
+    for raw in note_reg.findall(text):
+        text = text.replace(raw, "")
     text = clean_reg.sub("", text).lower()
     return text
 
