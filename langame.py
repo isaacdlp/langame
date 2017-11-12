@@ -13,12 +13,12 @@
 
 from openpyxl import load_workbook
 from random import choice
-import collections as co
 import warnings, sys, json, re, unicodedata
 warnings.simplefilter("ignore")
 
 
 filebase = "langame"
+lang_index = "EN"
 lang_focus = None
 word_focus = 0
 
@@ -26,15 +26,17 @@ action = "play"
 if len(sys.argv) > 1:
     action = sys.argv[1]
     if len(sys.argv) > 2:
-        lang_focus = sys.argv[2].upper().split(",")
-        map(lambda x: x.upper(), lang_focus)
-        if "ALL" in lang_focus:
-            lang_focus = None
+        lang_index = sys.argv[2].upper()
         if len(sys.argv) > 3:
-            try:
-                word_focus = int(sys.argv[3])
-            except:
-                print("Wrong word focus number")
+            lang_focus = sys.argv[3].upper().split(",")
+            map(lambda x: x.upper(), lang_focus)
+            if "ALL" in lang_focus:
+                lang_focus = None
+            if len(sys.argv) > 4:
+                try:
+                    word_focus = int(sys.argv[4])
+                except:
+                    print("Wrong word focus number")
 
 
 genders = {
@@ -98,7 +100,7 @@ if action == "update":
     sh = wb[wb.sheetnames[0]]
     langs = []
 
-    col = 1
+    col = 0
     while True:
         col += 1
         lang = sh.cell(row=1, column=col).value
@@ -107,22 +109,27 @@ if action == "update":
         else:
             langs.append(lang.upper())
 
-    words = co.OrderedDict()
+    unique = dict([(lang, []) for lang in langs])
+    words = []
     concept = None
 
     row = 1
     while True:
         row += 1
         if concept is not None:
-            if len(word) > 0:
-                words[concept] = word
+            if len(word) > 1:
+                for lang, sym in word.items():
+                    if sym in unique[lang]:
+                        print("Warning duplicate in %s: %s" % (lang, word[lang]))
+                    unique[lang].append(sym)
+                words.append(word)
         concept = sh.cell(row=row, column=1).value
         if concept is None:
             break
         word = {}
         for col, lang in enumerate(langs):
             con = []
-            col += 2
+            col += 1
             cell = sh.cell(row=row, column=col)
             sym = cell.value
             if sym is not None:
@@ -135,19 +142,18 @@ if action == "update":
 
     print("Writing %i words to JSON" % len(words))
     with open("%s.json" % filebase, "w") as f:
-        json.dump(list(words.items()), f)
+        json.dump(words, f)
 
 else:
 
     # Play the game!
 
     with open("%s.json" % filebase, "r") as f:
-        words = co.OrderedDict(json.load(f))
+        words = json.load(f)
 
     # In Python 3 keys() is an iterator, not a list
-    concepts = list(words.keys())
-    if word_focus > 0 and not word_focus > len(concepts):
-        concepts = concepts[-word_focus:]
+    if word_focus > 0 and not word_focus > len(words):
+        words = words[-word_focus:]
     used = []
 
 
@@ -160,18 +166,20 @@ else:
         sym = None
         gen = None
         for i in range(100):
-            concept = choice(concepts)
-            word = words[concept]
+            word = choice(words)
             langs = list(word.keys())
-            lang = choice(langs).upper()
-            if lang_focus is None or lang in lang_focus:
-                pair = "%s@%s" % (concept, lang)
-                if pair not in used:
-                    used.append(pair)
-                    con = word[lang]
-                    sym = con[0]
-                    gen = con[1] if len(con) > 1 else None
-                    break
+            if lang_index in langs:
+                concept = word[lang_index][0]
+                langs.remove(lang_index)
+                lang = choice(langs).upper()
+                if lang_focus is None or lang in lang_focus:
+                    pair = "%s@%s" % (concept, lang)
+                    if pair not in used:
+                        used.append(pair)
+                        con = word[lang]
+                        sym = con[0]
+                        gen = con[1] if len(con) > 1 else None
+                        break
 
         if sym is None:
             print("Not enough words!")

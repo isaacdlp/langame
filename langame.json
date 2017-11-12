@@ -1,1 +1,5052 @@
-[["S\u00ed", {"PT": ["Sim"], "EN": ["Yes"], "IT": ["Si"], "FR": ["Oui"], "CA": ["S\u00ed"], "RU": ["\u0414\u0430"]}], ["No", {"PT": ["N\u00e3o"], "EN": ["No, Not"], "IT": ["No, Non"], "FR": ["Ne, Non"], "CA": ["No"], "RU": ["\u041d\u0435, \u041d\u0435\u0442"]}], ["Bienvenido", {"PT": ["Bemvindo"], "EN": ["Welcome"], "IT": ["Benvenutto"], "FR": ["Bienvenue"], "CA": ["Benvingut"], "RU": ["\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c"]}], ["Hola", {"PT": ["Oi, Ol\u00e1"], "EN": ["Hi, Hello"], "IT": ["Ciao"], "FR": ["All\u00f4, Salut"], "CA": ["Hola"], "RU": ["\u0410\u043b\u043b\u043e, \u041f\u0440\u0438\u0432\u0435\u0442, \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0438\u0435"]}], ["Buen d\u00eda", {"PT": ["Bom dia"], "EN": ["Good day"], "IT": ["Buongiorno"], "FR": ["Bonjour"], "CA": ["Bon d\u00eda"], "RU": ["\u0414\u043e\u0431\u0440\u0438\u0439 \u0414\u0435\u043d\u044c"]}], ["Buenos d\u00edas", {"PT": ["Bom dia"], "EN": ["Good morning"], "IT": ["Buona mattina"], "FR": ["Bonjour"], "CA": ["Bona matinada"], "RU": ["\u0414\u043e\u0431\u0440\u043e\u0435 \u0443\u0442\u0440\u043e"]}], ["Buenas tardes", {"PT": ["Boa tarde"], "EN": ["Good afternoon, Good evening"], "IT": ["Buon pomeriggio, Buonasera"], "FR": ["Bonne apr\u00e8s-midi, Bonsoir"], "CA": ["Bona tarda"], "RU": ["\u0414\u043e\u0431\u0440\u0438\u0439 \u0412\u0435\u0447\u0435\u0440"]}], ["Buenas noches", {"PT": ["Boa noite"], "EN": ["Good night"], "IT": ["Buona notte"], "FR": ["Bonne nuit"], "CA": ["Bona nit"], "RU": ["\u0421\u043f\u043e\u043a\u043e\u0439\u043d\u043e\u0439 \u041d\u043e\u0447\u0438"]}], ["Adi\u00f3s", {"PT": ["Adeus"], "EN": ["Bye, Goodbye"], "IT": ["Ciao"], "FR": ["Adieu"], "CA": ["Ad\u00e9u"], "RU": ["\u041f\u043e\u043a\u0430"]}], ["Hasta luego", {"PT": ["At\u00e9 logo"], "EN": ["See you later"], "IT": ["Ci vediamo pi\u00f9 tardi"], "FR": ["\u00c0 plus tard"], "CA": ["Fins despr\u00e9s"], "RU": ["\u0414\u043e \u0441\u043a\u043e\u0440\u043e\u0433\u043e"]}], ["Hasta la vista", {"PT": ["At\u00e9 a vista"], "EN": ["See you"], "IT": ["Arrivederci"], "FR": ["Au revoir"], "CA": ["Ens veiem despr\u00e9s"], "RU": ["\u0414\u043e \u0441\u0432\u0438\u0434\u0430\u043d\u044f"]}], ["Perd\u00f3n (Atenci\u00f3n)", {"PT": ["Licen\u00e7a"], "EN": ["Excuse me"], "IT": ["Scusi"], "FR": ["Pardon"], "CA": ["Perd\u00f2"], "RU": ["\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435"]}], ["Perd\u00f3n (Disculpa)", {"PT": ["Desculpe"], "EN": ["Sorry"], "IT": ["Spiacente"], "FR": ["D\u00e9sol\u00e9"], "CA": ["Disculpi"], "RU": ["\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435"]}], ["Por favor", {"PT": ["Por favor"], "EN": ["Please"], "IT": ["Prego, Per favore"], "FR": ["S'il vous plait"], "CA": ["Si us plau"], "RU": ["\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430"]}], ["Gracias", {"PT": ["Obrigado, Obrigada"], "EN": ["Thanks, Thank you"], "IT": ["Grazie"], "FR": ["Merci"], "CA": ["Gr\u00e0cies"], "RU": ["\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044e"]}], ["De nada", {"PT": ["De nada"], "EN": ["You are welcome"], "IT": ["Prego, Di niente"], "FR": ["De rien"], "CA": ["De res"], "RU": ["\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430"]}], ["Felicidades", {"PT": ["Parab\u00e9ns"], "EN": ["Congratulations"], "IT": ["Complimenti"], "FR": ["F\u00e9licitations"], "CA": ["Felicitacions"], "RU": ["\u041f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f"]}], ["Qu\u00e9?", {"PT": ["O que?"], "EN": ["What?"], "IT": ["Che?, Cosa?"], "FR": ["Quoi?"], "CA": ["Qu\u00e9?"], "RU": ["\u0427\u0442\u043e?"]}], ["C\u00f3mo?", {"PT": ["Como?"], "EN": ["How?"], "IT": ["Come?"], "FR": ["Comment?"], "CA": ["Com?"], "RU": ["\u041a\u0430\u043a?"]}], ["Cu\u00e1nto?, Cu\u00e1nta?", {"PT": ["Quanto?, Quanta?"], "EN": ["How much? How many?"], "IT": ["Quanto?, Quanta?"], "FR": ["Combien?"], "CA": ["Quant?, Quanta?"], "RU": ["\u0421\u043a\u043e\u043b\u044c\u043a\u043e?"]}], ["Por qu\u00e9?", {"PT": ["Por que?"], "EN": ["Why?"], "IT": ["Perch\u00e9?"], "FR": ["Pourquoi?"], "CA": ["Per qu\u00e8?"], "RU": ["\u041f\u043e\u0447\u0435\u043c\u0443?, \u0417\u0430\u0447\u0435\u043c?"]}], ["Porque", {"PT": ["Porque"], "EN": ["Because"], "IT": ["Perch\u00e9"], "FR": ["Parce que"], "CA": ["Perqu\u00e8"], "RU": ["\u041f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e"]}], ["D\u00f3nde?", {"PT": ["Onde?"], "EN": ["Where?"], "IT": ["Dove?"], "FR": ["O\u00f9?"], "CA": ["On?"], "RU": ["\u0413\u0434\u0435?"]}], ["Cu\u00e1ndo?", {"PT": ["Quando?"], "EN": ["When?"], "IT": ["Quando?"], "FR": ["Quand?"], "CA": ["Quan?"], "RU": ["\u041a\u043e\u0433\u0434\u0430?"]}], ["Cu\u00e1l?", {"PT": ["Qual?"], "EN": ["Which?"], "IT": ["Qual?"], "FR": ["Lequel, Laquelle"], "CA": ["Quin?"], "RU": ["\u041a\u0430\u043a\u043e\u0439?"]}], ["Qui\u00e9n?", {"PT": ["Quem?"], "EN": ["Who?"], "IT": ["Chi?"], "FR": ["Qui?"], "CA": ["Qui?"], "RU": ["\u041a\u0442\u043e?"]}], ["Pregunta, Questi\u00f3n", {"PT": ["Pergunta, Quest\u00e3o", "F"], "EN": ["Question"], "IT": ["Domanda", "F"], "FR": ["Question", "F"], "CA": ["Pregunta, Q\u00fcesti\u00f3", "F"], "RU": ["\u0412\u043e\u043f\u0440\u043e\u0441", "M"]}], ["Respuesta", {"PT": ["Resposta, Contesta\u00e7\u00e3o", "F"], "EN": ["Answer, Response"], "IT": ["Risposta", "F"], "FR": ["R\u00e9ponse", "F"], "CA": ["Resposta", "F"], "RU": ["\u041e\u0442\u0432\u0435\u0442", "M"]}], ["Hombre", {"PT": ["Homem", "M"], "EN": ["Man"], "IT": ["Uomo", "M"], "FR": ["Homme", "M"], "CA": ["Home", "M"], "RU": ["\u041c\u0443\u0447\u0449\u0438\u043d\u0430", "M"]}], ["Mujer", {"PT": ["Mulher", "F"], "EN": ["Woman"], "IT": ["Donna", "F"], "FR": ["Femme", "F"], "CA": ["Dona", "F"], "RU": ["\u0416\u0435\u043d\u0449\u0438\u043d\u0430", "F"]}], ["Chico", {"PT": ["Garoto", "M"], "EN": ["Boy"], "IT": ["Ragazzo", "M"], "FR": ["Gar\u00e7on", "M"], "CA": ["Noi", "M"], "RU": ["\u041c\u0430\u043b\u044c\u0447\u0438\u043a", "M"]}], ["Chica", {"PT": ["Garota", "F"], "EN": ["Girl"], "IT": ["Ragazza", "F"], "FR": ["Fille", "F"], "CA": ["Noia", "F"], "RU": ["\u0414\u0435\u0432\u043e\u0447\u043a\u0430", "F"]}], ["Ni\u00f1o, Cr\u00edo", {"PT": ["Crian\u00e7a", "F"], "EN": ["Child"], "IT": ["Bambino, Bambina"], "FR": ["Enfant", "M"], "CA": ["Nen, Nena"], "RU": ["\u0420\u0435\u0431\u0435\u043d\u043e\u043a, \u0414\u0438\u0442\u044f", "M"]}], ["Cr\u00edos", {"PT": ["Crian\u00e7as", "F"], "EN": ["Children"], "IT": ["Bambini", "M"], "FR": ["Enfants", "M"], "CA": ["Nens", "M"], "RU": ["\u0414\u0435\u0442\u0438"]}], ["Beb\u00e9", {"EN": ["Baby"], "FR": ["B\u00e9b\u00e9", "M"], "CA": ["Nad\u00f3, Nadona", "M"], "PT": ["Beb\u00ea", "M"]}], ["Pap\u00e1", {"PT": ["Pai", "M"], "EN": ["Dad"], "IT": ["Pap\u00e0", "M"], "FR": ["Papa", "M"], "CA": ["Pap\u00e0", "M"], "RU": ["\u041f\u0430\u043f\u0430", "M"]}], ["Mam\u00e1", {"PT": ["M\u00e3e", "F"], "EN": ["Mom"], "IT": ["Mamma", "F"], "FR": ["Mamman", "F"], "CA": ["Mam\u00e0", "F"], "RU": ["\u041c\u0430\u043c\u0430", "F"]}], ["Padre", {"PT": ["Pai", "M"], "EN": ["Father"], "IT": ["Padre", "M"], "FR": ["P\u00e8re", "M"], "CA": ["Pare", "M"], "RU": ["\u041e\u0442\u0435\u0446", "M"]}], ["Madre", {"PT": ["M\u00e3e", "F"], "EN": ["Mother"], "IT": ["Madre", "F"], "FR": ["M\u00e8re", "F"], "CA": ["Mare", "F"], "RU": ["\u041c\u0430\u0442\u044c", "F"]}], ["Abuelo", {"PT": ["Av\u00f4", "M"], "EN": ["Grandfather"], "IT": ["Nonno", "M"], "FR": ["Grand-p\u00e8re", "M"], "CA": ["Avi", "M"], "RU": ["\u0414\u0435\u0434\u0443\u0448\u043a\u0430", "M"]}], ["Abuela", {"PT": ["Av\u00f3", "F"], "EN": ["Grandmother"], "IT": ["Nonna", "F"], "FR": ["Grand-m\u00e8re", "F"], "CA": ["\u00c0via", "F"], "RU": ["\u0411\u0430\u0431\u0443\u0448\u043a\u0430", "F"]}], ["Hijo", {"PT": ["Filho", "M"], "EN": ["Son"], "IT": ["Figlio", "M"], "FR": ["Fils", "M"], "CA": ["Fill", "M"], "RU": ["\u0421\u044b\u043d", "M"]}], ["Hija", {"PT": ["Filha", "F"], "EN": ["Daughter"], "IT": ["Figlia", "F"], "FR": ["Fille", "F"], "CA": ["Filla", "F"], "RU": ["\u0414\u043e\u0447\u044c", "F"]}], ["Hermano", {"PT": ["Irm\u00e3o", "M"], "EN": ["Brother"], "IT": ["Sorello", "M"], "FR": ["Fr\u00e8re", "M"], "CA": ["Germ\u00e0", "M"], "RU": ["\u0411\u0440\u0430\u0442", "M"]}], ["Hermana", {"PT": ["Irm\u00e3", "F"], "EN": ["Sister"], "IT": ["Sorella", "F"], "FR": ["Soeur", "F"], "CA": ["Germana", "F"], "RU": ["\u0421\u0435\u0441\u0442\u0440\u0430", "F"]}], ["Novio", {"PT": ["Namorado", "M"], "EN": ["Boyfriend, Fianc"], "IT": ["Fidanzato", "M"], "FR": ["Copain", "M"], "CA": ["Nuvi", "M"], "RU": ["\u0414\u0440\u0443\u0436\u043e\u043a", "M"]}], ["Novia", {"PT": ["Namorada", "F"], "EN": ["Girlfriend"], "IT": ["Fidanzata", "F"], "FR": ["Copine", "F"], "CA": ["N\u00favia", "F"], "RU": ["\u041f\u043e\u0434\u0440\u0443\u0433\u0430", "F"]}], ["Esposo, Marido", {"PT": ["Esposo, Marido", "M"], "EN": ["Husband"], "IT": ["Marito", "M"], "FR": ["Mari", "M"], "CA": ["Marit", "M"], "RU": ["\u041c\u0443\u0436", "M"]}], ["Esposa, Mujer", {"PT": ["Esposa, Mulher", "F"], "EN": ["Wife"], "IT": ["Moglie, Donna", "F"], "FR": ["Femme, \u00c9pouse", "F"], "CA": ["Esposa, Dona", "F"], "RU": ["\u0416\u0435\u043d\u0430", "F"]}], ["Se\u00f1or, Don, Caballero", {"PT": ["Senhor, Cavalheiro", "M"], "EN": ["Sir, Gentleman"], "IT": ["Signore", "M"], "FR": ["Monsieur", "M"], "CA": ["Senyor", "M"], "RU": ["\u0421\u044d\u0440, \u0414\u0436\u0435\u043d\u0442\u043b\u044c\u043c\u0435\u043d", "M"]}], ["Se\u00f1ora, Do\u00f1a, Dama", {"PT": ["Senhora, Dona", "F"], "EN": ["Lady, Madam, Dame"], "IT": ["Signora", "F"], "FR": ["Madame, Dame", "F"], "CA": ["Senyora", "F"], "RU": ["\u041c\u0430\u0434\u0430\u043c, \u041b\u0435\u0434\u0438, \u0414\u0430\u043c\u0430", "F"]}], ["Se\u00f1orita", {"PT": ["Senhorita", "F"], "EN": ["Miss"], "IT": ["Signorina", "F"], "FR": ["Mademoiselle", "F"], "CA": ["Senyoreta", "F"], "RU": ["\u041c\u0438\u0441\u0441", "F"]}], ["Amigo", {"PT": ["Amigo", "M"], "EN": ["Friend"], "IT": ["Amico", "M"], "FR": ["Ami", "M"], "CA": ["Amic", "M"], "RU": ["\u0414\u0440\u0443\u0433", "M"]}], ["Persona", {"PT": ["Pessoa", "F"], "EN": ["Person"], "IT": ["Persona", "F"], "FR": ["Personne", "F"], "CA": ["Persona", "F"], "RU": ["\u0427\u0435\u043b\u043e\u0432\u0435\u043a", "M"]}], ["Gente", {"PT": ["Gente", "F"], "EN": ["People"], "IT": ["Gente", "F"], "FR": ["Gens", "F"], "CA": ["Gent", "F"], "RU": ["\u041b\u044e\u0434\u0438"]}], ["Cero", {"PT": ["Zero"], "EN": ["Zero"], "IT": ["Zero"], "FR": ["Z\u00e9ro"], "CA": ["Zero"], "RU": ["\u043d\u0443\u043b\u044c"]}], ["Uno", {"PT": ["Um"], "EN": ["One"], "IT": ["Uno"], "FR": ["Un"], "CA": ["Un"], "RU": ["\u041e\u0434\u0438\u043d"]}], ["Dos", {"PT": ["Dois"], "EN": ["Two"], "IT": ["Due"], "FR": ["Deux"], "CA": ["Dos"], "RU": ["\u0414\u0432\u0430"]}], ["Tres", {"PT": ["Tr\u00eas"], "EN": ["Three"], "IT": ["Tre"], "FR": ["Trois"], "CA": ["Tres"], "RU": ["\u0422\u0440\u0438"]}], ["Cuatro", {"PT": ["Quatro"], "EN": ["Four"], "IT": ["Quattro"], "FR": ["Quatre"], "CA": ["Quatre"], "RU": ["\u0427\u0435\u0442\u044b\u0440\u0435"]}], ["Cinco", {"PT": ["Cinco"], "EN": ["Five"], "IT": ["Cinque"], "FR": ["Cinq"], "CA": ["Cinc"], "RU": ["\u041f\u044f\u0442\u044c"]}], ["Seis", {"PT": ["Seis"], "EN": ["Six"], "IT": ["Sei"], "FR": ["Six"], "CA": ["Sis"], "RU": ["\u0428\u0435\u0441\u0442\u044c"]}], ["Siete", {"PT": ["Sete"], "EN": ["Seven"], "IT": ["Sette"], "FR": ["Sept"], "CA": ["Set"], "RU": ["\u0421\u0435\u043c\u044c"]}], ["Ocho", {"PT": ["Oito"], "EN": ["Eight"], "IT": ["Otto"], "FR": ["Huit"], "CA": ["Vuit"], "RU": ["\u0412\u043e\u0441\u0435\u043c\u044c"]}], ["Nueve", {"PT": ["Nove"], "EN": ["Nine"], "IT": ["Nove"], "FR": ["Neuf"], "CA": ["Nou"], "RU": ["\u0414\u0435\u0432\u044f\u0442\u044c"]}], ["Diez", {"PT": ["Dez"], "EN": ["Ten"], "IT": ["Dieci"], "FR": ["Dix"], "CA": ["Deu"], "RU": ["\u0414\u0435\u0441\u044f\u0442\u044c"]}], ["Once", {"PT": ["Onze"], "EN": ["Eleven"], "IT": ["Undici"], "FR": ["Onze"], "CA": ["Onze"], "RU": ["\u041e\u0434\u0438\u043d\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Doce", {"PT": ["Doze"], "EN": ["Twelve"], "IT": ["Dodici"], "FR": ["Douze"], "CA": ["Dotze"], "RU": ["\u0414\u0432\u0435\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Trece", {"PT": ["Treze"], "EN": ["Thirteen"], "IT": ["Tredici"], "FR": ["Treize"], "CA": ["Tretze"], "RU": ["\u0422\u0440\u0438\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Catorce", {"PT": ["Quatorze"], "EN": ["Fourteen"], "IT": ["Quattordici"], "FR": ["Quatorze"], "CA": ["Catorze"], "RU": ["\u0427\u0435\u0442\u044b\u0440\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Quince", {"PT": ["Quinze"], "EN": ["Fifteen"], "IT": ["Quindici"], "FR": ["Quinze"], "CA": ["Quinze"], "RU": ["\u041f\u044f\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Diecis\u00e9is", {"PT": ["Dezesseis"], "EN": ["Sixteen"], "IT": ["Sedici"], "FR": ["Seize"], "CA": ["Setze"], "RU": ["\u0428\u0435\u0441\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Diecisiete", {"PT": ["Dezessete"], "EN": ["Seventeen"], "IT": ["Diciassette"], "FR": ["Dix-sept"], "CA": ["Disset"], "RU": ["\u0421\u0435\u043c\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Dieciocho", {"PT": ["Dezoito"], "EN": ["Eighteen"], "IT": ["Diciotto"], "FR": ["Dix-huit"], "CA": ["Divuit"], "RU": ["\u0412\u043e\u0441\u0435\u043c\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Diecinueve", {"PT": ["Dezenove"], "EN": ["Nineteen"], "IT": ["Diciannove"], "FR": ["Dix-neuf"], "CA": ["Dinou"], "RU": ["\u0414\u0435\u0432\u044f\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Veinte", {"PT": ["Vinte"], "EN": ["Twenty"], "IT": ["Venti"], "FR": ["Vingt"], "CA": ["Vint"], "RU": ["\u0414\u0432\u0430\u0434\u0446\u0430\u0442\u044c"]}], ["Treinta", {"PT": ["Trinta"], "EN": ["Thirty"], "IT": ["Trenta"], "FR": ["Trente"], "CA": ["Trenta"], "RU": ["\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u044c"]}], ["Cuarenta", {"PT": ["Quarenta"], "EN": ["Fourty"], "IT": ["Quaranta"], "FR": ["Quarante"], "CA": ["Quaranta"], "RU": ["\u0421\u043e\u0440\u043e\u043a"]}], ["Cincueta", {"PT": ["Cinqueta"], "EN": ["Fifty"], "IT": ["Cinquanta"], "FR": ["Cinquante"], "CA": ["Cinquata"], "RU": ["\u041f\u044f\u0442\u044c\u0434\u0435\u0441\u044f\u0442"]}], ["Sesenta", {"PT": ["Sessenta"], "EN": ["Sixty"], "IT": ["Sessanta"], "FR": ["Soixante"], "CA": ["Seixanta"], "RU": ["\u0428\u0435\u0441\u0442\u044c\u0434\u0435\u0441\u044f\u0442"]}], ["Setenta", {"PT": ["Setenta"], "EN": ["Seventy"], "IT": ["Settanta"], "FR": ["Soixante-dix"], "CA": ["Setanta"], "RU": ["\u0421\u0435\u043c\u044c\u0434\u0435\u0441\u044f\u0442"]}], ["Ochenta", {"PT": ["Oitenta"], "EN": ["Eighty"], "IT": ["Ottanta"], "FR": ["Quatre-vingts"], "CA": ["Vuitanta"], "RU": ["\u0412\u043e\u0441\u0435\u043c\u044c\u0434\u0435\u0441\u044f\u0442"]}], ["Noventa", {"PT": ["Noventa"], "EN": ["Ninety"], "IT": ["Novanta"], "FR": ["Quatre-vingt-dix"], "CA": ["Noranta"], "RU": ["\u0414\u0435\u0432\u044f\u043d\u043e\u0441\u0442\u043e"]}], ["Cien", {"PT": ["Cem"], "EN": ["Hundred"], "IT": ["Cento"], "FR": ["Cent"], "CA": ["Cent"], "RU": ["\u0421\u0442\u043e"]}], ["Mil", {"PT": ["Mil"], "EN": ["Thousand"], "IT": ["Mille"], "FR": ["Mille"], "CA": ["Mil"], "RU": ["\u0422\u044b\u0441\u044f\u0447\u0430", "F"]}], ["Mill\u00f3n", {"PT": ["Milh\u00e3o"], "EN": ["Million"], "IT": ["Milione"], "FR": ["Million"], "CA": ["Mili\u00f3"], "RU": ["\u041c\u0438\u043b\u043b\u0438\u043e\u043d"]}], ["Aqu\u00ed", {"PT": ["Aqu\u00ed"], "EN": ["Here"], "IT": ["Qui"], "FR": ["Ici"], "CA": ["Aqu\u00ed"], "RU": ["\u0417\u0434\u0435\u0441\u044c, \u0412\u043e\u0442"]}], ["All\u00ed", {"PT": ["L\u00e1"], "EN": ["There"], "IT": ["L\u00e0"], "FR": ["L\u00e0"], "CA": ["Enll\u00e0"], "RU": ["\u0422\u0430\u043c"]}], ["Esto", {"PT": ["Isto"], "EN": ["This"], "IT": ["Questo"], "FR": ["Ce ici"], "CA": ["Aix\u00f2"], "RU": ["\u042d\u0442\u043e"]}], ["Eso, Aquello", {"IT": ["Quelo"], "FR": ["Ce l\u00e0"], "CA": ["All\u00f2"], "PT": ["Isso, Aquilo"], "EN": ["That"]}], ["Arriba", {"PT": ["Acima"], "EN": ["Up"], "IT": ["Su"], "FR": ["Dessus"], "CA": ["Adalt"], "RU": ["\u0412\u0432\u0435\u0440\u0445"]}], ["Abajo", {"PT": ["Abaixo"], "EN": ["Down"], "IT": ["Gi\u00f9"], "FR": ["Dessous"], "CA": ["Abaix"], "RU": ["\u0412\u043d\u0438\u0437"]}], ["Izquierda", {"PT": ["Esquerda"], "EN": ["Left"], "IT": ["Sinistra"], "FR": ["Gauche"], "CA": ["Esquerra"], "RU": ["\u0421\u043b\u0435\u0432\u0430"]}], ["Derecha", {"PT": ["Direita"], "EN": ["Right"], "IT": ["Destra"], "FR": ["Droite"], "CA": ["Dreta"], "RU": ["\u0421\u043f\u0440\u0430\u0432\u0430"]}], ["Delante", {"PT": ["Frente"], "EN": ["Front"], "IT": ["Avanti"], "FR": ["Avant"], "CA": ["Endavant, Davant"], "RU": ["\u041f\u0435\u0440\u0435\u0434"]}], ["Detr\u00e1s", {"PT": ["Atr\u00e1s"], "EN": ["Back"], "IT": ["Dietro"], "FR": ["Derri\u00e8re"], "CA": ["Endarrera, Darrera"], "RU": ["\u0417\u0430"]}], ["Entrada", {"PT": ["Entrada", "F"], "EN": ["Entry"], "IT": ["Entrada", "F"], "FR": ["Entr\u00e9e", "F"], "CA": ["Entrada", "F"], "RU": ["\u0412\u0445\u043e\u0434", "M"]}], ["Salida", {"PT": ["Sa\u00edda", "F"], "EN": ["Exit"], "IT": ["Uscita", "F"], "FR": ["Sortie", "F"], "CA": ["Sortida", "F"], "RU": ["\u0412\u044b\u0445\u043e\u0434", "M"]}], ["Desayuno", {"PT": ["Caf\u00e9 da manh\u00e3", "M"], "EN": ["Breakfast"], "IT": ["Prima colazione", "F"], "FR": ["P\u00e9tit d\u00e9juner", "M"], "CA": ["Esmorzar", "M"], "RU": ["\u0417\u0430\u0432\u0442\u0440\u0430\u043a", "M"]}], ["Comida", {"PT": ["Almo\u00e7o", "M"], "EN": ["Lunch"], "IT": ["Pranzo", "M"], "FR": ["D\u00e9juner", "M"], "CA": ["Dinar", "M"], "RU": ["\u041e\u0431\u0435\u0434", "M"]}], ["Cena", {"PT": ["Jantar", "M"], "EN": ["Dinner"], "IT": ["Cena", "F"], "FR": ["D\u00eener", "M"], "CA": ["Sopar", "M"], "RU": ["\u0423\u0436\u0438\u043d", "M"]}], ["Siempre", {"PT": ["Sempre"], "EN": ["Always"], "IT": ["Sempre"], "FR": ["Toujours"], "CA": ["Sempre"], "RU": ["\u0412\u0441\u0435\u0433\u0434\u0430"]}], ["Nunca, Jam\u00e1s", {"PT": ["Nunca"], "EN": ["Never"], "IT": ["Mai"], "FR": ["Jamais"], "CA": ["Mai"], "RU": ["\u041d\u0438\u043a\u043e\u0433\u0434\u0430"]}], ["Ayer", {"PT": ["Ontem", "M"], "EN": ["Yesterday"], "IT": ["Ieri", "M"], "FR": ["Hier", "M"], "CA": ["Ahir", "M"], "RU": ["\u0412\u0447\u0435\u0440\u0430", "F"]}], ["Hoy", {"PT": ["Hoje", "M"], "EN": ["Today"], "IT": ["Oggi", "M"], "FR": ["Aujourd'hui", "M"], "CA": ["Avui", "M"], "RU": ["\u0421\u0435\u0433\u043e\u0434\u043d\u044f", "F"]}], ["Ma\u00f1ana (Pr\u00f3ximo D\u00eda)", {"PT": ["Amanh\u00e1", "M"], "EN": ["Tomorrow"], "IT": ["Domani", "M"], "FR": ["Demain", "M"], "CA": ["Dem\u00e0", "M"], "RU": ["\u0417\u0430\u0432\u0442\u0440\u0430", "F"]}], ["D\u00eda", {"PT": ["Dia", "M"], "EN": ["Day"], "IT": ["Giorno", "M"], "FR": ["Jour", "M"], "CA": ["Dia", "M"], "RU": ["\u0414\u0435\u043d\u044c", "M"]}], ["Semana", {"PT": ["Semana", "F"], "EN": ["Week"], "IT": ["Settimana", "F"], "FR": ["Semaine", "F"], "CA": ["Setmana", "F"], "RU": ["\u041d\u0435\u0434\u0435\u043b\u044f", "F"]}], ["Fin de semana", {"PT": ["Fim de semana", "M"], "EN": ["Weekend"], "IT": ["Fine settimana", "M"], "FR": ["Weekend", "M"], "CA": ["Cap de setmana", "M"], "RU": ["\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435"]}], ["Lunes", {"PT": ["Segunda feira", "F"], "EN": ["Monday"], "IT": ["Luned\u00ec", "M"], "FR": ["Lundi", "M"], "CA": ["Dilluns", "M"], "RU": ["\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a", "M"]}], ["Martes", {"PT": ["Ter\u00e7a feira", "F"], "EN": ["Tuesday"], "IT": ["Marted\u00ec", "M"], "FR": ["Mardi", "M"], "CA": ["Dimarts", "M"], "RU": ["\u0412\u0442\u043e\u0440\u043d\u0438\u043a", "M"]}], ["Mi\u00e9rcoles", {"PT": ["Quarta feira", "F"], "EN": ["Wednsday"], "IT": ["Mercoled\u00ec", "M"], "FR": ["Mercredi", "M"], "CA": ["Dimecres", "M"], "RU": ["\u0421\u0440\u0435\u0434\u0430", "F"]}], ["Jueves", {"PT": ["Quinta feira", "F"], "EN": ["Thursday"], "IT": ["Gioved\u00ec", "M"], "FR": ["Jeudi", "M"], "CA": ["Dijous", "M"], "RU": ["\u0427\u0435\u0442\u0432\u0435\u0440\u0433", "M"]}], ["Viernes", {"PT": ["Sexta feira", "F"], "EN": ["Friday"], "IT": ["Venerd\u00ec", "M"], "FR": ["Vendredi", "M"], "CA": ["Divendres", "M"], "RU": ["\u041f\u044f\u0442\u043d\u0438\u0446\u0430", "F"]}], ["S\u00e1bado", {"PT": ["S\u00e1bado", "M"], "EN": ["Saturday"], "IT": ["Sabato", "M"], "FR": ["Samedi", "M"], "CA": ["Dissabte", "M"], "RU": ["\u0421\u0443\u0431\u0431\u043e\u0442\u0430", "F"]}], ["Domingo", {"PT": ["Domingo", "M"], "EN": ["Sunday"], "IT": ["Domenica", "F"], "FR": ["Dimanche", "M"], "CA": ["Diumenge", "M"], "RU": ["\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435", "N"]}], ["Mes", {"PT": ["M\u00eas", "M"], "EN": ["Month"], "IT": ["Mese", "M"], "FR": ["Mois", "M"], "CA": ["Mes", "M"], "RU": ["\u041c\u0435\u0441\u044f\u0446", "M"]}], ["Enero", {"PT": ["Janeiro", "M"], "EN": ["January"], "IT": ["Gennaio", "M"], "FR": ["Janvier", "M"], "CA": ["Gener", "M"], "RU": ["\u042f\u043d\u0432\u0430\u0440\u044c", "M"]}], ["Febrero", {"PT": ["Fevereiro", "M"], "EN": ["February"], "IT": ["Febbraio", "M"], "FR": ["F\u00e9vrier", "M"], "CA": ["Febrer", "M"], "RU": ["\u0424\u0435\u0432\u0440\u0430\u043b\u044c", "M"]}], ["Marzo", {"PT": ["Mar\u00e7o", "M"], "EN": ["March"], "IT": ["Marzo", "M"], "FR": ["Mars", "M"], "CA": ["Mar\u00e7", "M"], "RU": ["\u041c\u0430\u0440\u0442", "M"]}], ["Abril", {"PT": ["Abril", "M"], "EN": ["April"], "IT": ["Aprile", "M"], "FR": ["Avril", "M"], "CA": ["Abril", "M"], "RU": ["\u0410\u043f\u0440\u0435\u043b\u044c", "M"]}], ["Mayo", {"PT": ["Maio", "M"], "EN": ["May"], "IT": ["Maggio", "M"], "FR": ["Mai", "M"], "CA": ["Maig", "M"], "RU": ["\u041c\u0430\u0439", "M"]}], ["Junio", {"PT": ["Junho", "M"], "EN": ["June"], "IT": ["Giugno", "M"], "FR": ["Juin", "M"], "CA": ["Juny", "M"], "RU": ["\u0418\u044e\u043d\u044c", "M"]}], ["Julio", {"PT": ["Julho", "M"], "EN": ["July"], "IT": ["Iuglio", "M"], "FR": ["Juillet", "M"], "CA": ["Juliol", "M"], "RU": ["\u0418\u044e\u043b\u044c", "M"]}], ["Agosto", {"PT": ["Agosto", "M"], "EN": ["August"], "IT": ["Agosto", "M"], "FR": ["Ao\u00fbt", "M"], "CA": ["Agost", "M"], "RU": ["\u0410\u0432\u0433\u0443\u0441\u0442", "M"]}], ["Septiembre", {"PT": ["Setembro", "M"], "EN": ["September"], "IT": ["Settembre", "M"], "FR": ["Septembre", "M"], "CA": ["Setembre", "M"], "RU": ["\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c", "M"]}], ["Octubre", {"PT": ["Outubro", "M"], "EN": ["October"], "IT": ["Ottobre", "M"], "FR": ["Octubre", "M"], "CA": ["Octubre", "M"], "RU": ["\u041e\u043a\u0442\u044f\u0431\u0440\u044c", "M"]}], ["Noviembre", {"PT": ["Novembro", "M"], "EN": ["November"], "IT": ["Novembre", "M"], "FR": ["Novembre", "M"], "CA": ["Novembre", "M"], "RU": ["\u041d\u043e\u044f\u0431\u0440\u044c", "M"]}], ["Diciembre", {"PT": ["Dezembro", "M"], "EN": ["December"], "IT": ["Dicembre", "M"], "FR": ["D\u00e9cembre", "M"], "CA": ["Desembre", "M"], "RU": ["\u0414\u0435\u043a\u0430\u0431\u0440\u044c", "M"]}], ["Estaci\u00f3n (Mes)", {"PT": ["Esta\u00e7\u00e3o", "F"], "EN": ["Season"], "IT": ["Stagione", "F"], "FR": ["Saison", "F"], "CA": ["Estaci\u00f3", "F"], "RU": ["\u0421\u0435\u0437\u043e\u043d", "M"]}], ["Primavera", {"IT": ["Primavera", "F"], "FR": ["Printemps", "M"], "RU": ["\u0412\u0435\u0441\u043d\u0430", "F"], "PT": ["Primavera", "F"], "EN": ["Spring"]}], ["Verano", {"PT": ["Ver\u00e3o", "M"], "EN": ["Summer"], "IT": ["Estate", "M"], "FR": ["Et\u00ea", "M"], "CA": ["Estiu", "M"], "RU": ["\u041b\u0435\u0442\u043e", "N"]}], ["Oto\u00f1o", {"PT": ["Outono", "M"], "EN": ["Autumn"], "IT": ["Autunno", "M"], "FR": ["Automne", "M"], "CA": ["Tardor", "M"], "RU": ["\u041e\u0441\u0435\u043d\u044c", "F"]}], ["Invierno", {"PT": ["Inverno", "M"], "EN": ["Winter"], "IT": ["Inverno", "M"], "FR": ["Hiver", "M"], "CA": ["Hivern", "F"], "RU": ["\u0417\u0438\u043c\u0430", "F"]}], ["A\u00f1o", {"PT": ["Ano", "M"], "EN": ["Year"], "IT": ["Anno", "M"], "FR": ["Ann\u00e9e", "M"], "CA": ["Any", "M"], "RU": ["\u0413\u043e\u0434", "M"]}], ["Ser", {"IT": ["Essere"], "FR": ["\u00catre"], "CA": ["Ser"], "PT": ["Ser"], "EN": ["Be"]}], ["Es", {"IT": ["\u00c8"], "FR": ["Est"], "CA": ["\u00c9s"], "PT": ["\u00c9"], "EN": ["Is"]}], ["Haber, Tener", {"IT": ["Avere"], "FR": ["Avoir"], "CA": ["Tenir"], "PT": ["Ter"], "EN": ["Have"]}], ["Querer", {"PT": ["Querer"], "EN": ["Want"], "IT": ["Vogliere"], "FR": ["Vouloir"], "CA": ["Voler"], "RU": ["\u0425\u043e\u0442\u0435\u0442\u044c"]}], ["Poder", {"PT": ["Poder"], "EN": ["Can"], "IT": ["Potere"], "FR": ["Povoir"], "CA": ["Poguer"], "RU": ["\u0423\u043c\u0435\u0442\u044c, \u041c\u043e\u0447\u044c"]}], ["Ir", {"PT": ["Ir"], "EN": ["Go"], "IT": ["Andare"], "FR": ["Aller"], "CA": ["Anar"], "RU": ["\u0418\u0434\u0442\u0438, \u0425\u043e\u0434\u0438\u0442\u044c"]}], ["Venir", {"PT": ["Vir"], "EN": ["Come"], "IT": ["Venire"], "FR": ["Venir"], "CA": ["Venir"], "RU": ["\u041f\u0440\u0438\u0439\u0442\u0438"]}], ["Volver", {"PT": ["Voltar"], "EN": ["Come back"], "IT": ["Tornare"], "FR": ["Tourner"], "CA": ["Tornar"], "RU": ["\u0412\u0435\u0440\u043d\u0438\u0441\u044c"]}], ["Leer", {"PT": ["Ler"], "EN": ["Read"], "IT": ["Leggere"], "FR": ["Lire"], "CA": ["Llegir"], "RU": ["\u0427\u0438\u0442\u0430\u0442\u044c"]}], ["Escribir", {"PT": ["Escrever"], "EN": ["Write"], "IT": ["Scrivere"], "FR": ["\u00c9crire"], "CA": ["Escriure"], "RU": ["\u041f\u0438\u0441\u0430\u0442\u044c"]}], ["Olfatear", {"PT": ["Farejar"], "EN": ["Sniff"], "IT": ["Annusare"], "FR": ["Renifler"], "CA": ["Ensumar"], "RU": ["\u041d\u044e\u0445\u0430\u0442\u044c"]}], ["Oler", {"PT": ["Cheirar"], "EN": ["Smell"], "IT": ["Odorare"], "FR": ["Sentir"], "CA": ["Olorar"], "RU": ["\u041d\u0430\u0445\u043d\u0443\u0442\u044c"]}], ["Mirar", {"PT": ["Olhar"], "EN": ["Look, Watch"], "IT": ["Guardare"], "FR": ["Regarder"], "CA": ["Mirar"], "RU": ["\u0421\u043c\u043e\u0442\u0440\u0435\u0442\u044c"]}], ["Ver", {"PT": ["Ver"], "EN": ["See"], "IT": ["Vedere"], "FR": ["Voir"], "CA": ["Veure"], "RU": ["\u0412\u0438\u0434\u0435\u0442\u044c"]}], ["Buscar", {"PT": ["Procurar"], "EN": ["Search"], "IT": ["Cercare, Ricercare"], "FR": ["Chercher, Rechercher"], "CA": ["Buscar, Cercar"], "RU": ["\u0418\u0441\u043a\u0430\u0442\u044c"]}], ["Encontrar", {"PT": ["Encontrar, Achar"], "EN": ["Find"], "IT": ["Trovare"], "FR": ["Trouver"], "CA": ["Trobar"], "RU": ["\u041d\u0430\u0445\u043e\u0434\u0438\u0442\u044c"]}], ["Escuchar", {"PT": ["Escutar"], "EN": ["Listen"], "IT": ["Ascoltare"], "FR": ["\u00c9couter"], "CA": ["Escoltar"], "RU": ["\u0421\u043b\u0443\u0448\u0430\u0442\u044c"]}], ["O\u00edr", {"PT": ["Ouvir"], "EN": ["Hear"], "IT": ["Sentire"], "FR": ["Entendre"], "CA": ["Sento"], "RU": ["\u0421\u043b\u044b\u0448\u0430\u0442\u044c"]}], ["Hablar", {"PT": ["Falar"], "EN": ["Speak"], "IT": ["Parlare"], "FR": ["Parler"], "CA": ["Parlar"], "RU": ["\u0413\u043e\u0432\u043e\u0440\u0438\u0442\u044c"]}], ["Entender, Comprender", {"PT": ["Entender, Comprender"], "EN": ["Understand"], "IT": ["Capire"], "FR": ["Comprendre"], "CA": ["Entendre"], "RU": ["\u041f\u043e\u043d\u0438\u043c\u0430\u0442\u044c"]}], ["Aprender", {"PT": ["Aprender"], "EN": ["Learn"], "IT": ["Imparare"], "FR": ["Apprendre"], "CA": ["Aprendre"], "RU": ["\u0423\u0447\u0438\u0442\u044c"]}], ["Recordar", {"PT": ["Lembrar"], "EN": ["Remember"], "IT": ["Ricordare"], "FR": ["Souvenir"], "CA": ["Recordar, Enrecordar"], "RU": ["\u041f\u043e\u043c\u043d\u0438\u0442\u044c"]}], ["Olvidar", {"PT": ["Esquecer"], "EN": ["Forget"], "IT": ["Dimenticare"], "FR": ["Oublier"], "CA": ["Oblidar"], "RU": ["\u0417\u0430\u0431\u044b\u0432\u0430\u0442\u044c"]}], ["Saber, Conocer", {"PT": ["Saber, Conhecer"], "EN": ["Know"], "IT": ["Sapere, Conoscere"], "FR": ["Savoir, Conna\u00eetre"], "CA": ["Sapiguer, Con\u00e8ixer"], "RU": ["\u0417\u043d\u0430\u0442\u044c"]}], ["Pensar", {"PT": ["Pensar, Achar"], "EN": ["Think"], "IT": ["Pensare"], "FR": ["Penser"], "CA": ["Pensar"], "RU": ["\u0414\u0443\u043c\u0430\u0442\u044c"]}], ["Creer", {"PT": ["Acreditar"], "EN": ["Believe"], "IT": ["Credere"], "FR": ["Croir"], "CA": ["Creure"], "RU": ["\u0412\u0435\u0440\u0438\u0442\u044c"]}], ["Dormir", {"PT": ["Dormier"], "EN": ["Dormire"], "IT": ["Dormir"], "FR": ["Dormir"], "CA": ["Dormir"], "RU": ["\u0421\u043f\u0430\u0442\u044c"]}], ["Trabajar", {"PT": ["Trabalhar"], "EN": ["Work"], "IT": ["Lavorare"], "FR": ["Travailler"], "CA": ["Treballar"], "RU": ["\u0420\u0430\u0431\u043e\u0442\u0430\u0442\u044c"]}], ["Cocinar", {"PT": ["Cozinhar"], "EN": ["Cook"], "IT": ["Cucinare"], "FR": ["Cuisiner"], "CA": ["Cuinar"], "RU": ["\u0413\u043e\u0442\u043e\u0432\u0438\u0442\u044c"]}], ["Comer", {"PT": ["Comer"], "EN": ["Eat"], "IT": ["Mangiare"], "FR": ["Manger"], "CA": ["Menjar"], "RU": ["\u0415\u0441\u0442\u044c"]}], ["Beber", {"PT": ["Beber"], "EN": ["Drink"], "IT": ["Bere"], "FR": ["Boire"], "CA": ["Beure"], "RU": ["\u041f\u0438\u0442\u044c"]}], ["Bueno", {"PT": ["Bom"], "EN": ["Good"], "IT": ["Buono"], "FR": ["Bon"], "CA": ["Bo"], "RU": ["\u0425\u043e\u0440\u043e\u0448\u0438\u0439"]}], ["Malo", {"PT": ["Ruim, Mau"], "EN": ["Bad"], "IT": ["Cattivo"], "FR": ["Mauvais"], "CA": ["Dolent"], "RU": ["\u041f\u043b\u043e\u0445\u043e\u0439"]}], ["Bonito, Lindo", {"PT": ["Bonito, Lindo"], "EN": ["Beautiful, Pretty"], "IT": ["Bello, Carino"], "FR": ["Beau, Jolie"], "CA": ["Bonic, Maco"], "RU": ["\u041a\u0440\u0430\u0441\u0438\u0432\u0438\u0439"]}], ["Feo", {"PT": ["Feio"], "EN": ["Ugly"], "IT": ["Brutto"], "FR": ["Lleig"], "CA": ["Lleig"], "RU": ["\u0413\u043b\u0430\u0434\u043a\u0438\u0439"]}], ["Peque\u00f1o", {"PT": ["Pequeno"], "EN": ["Small"], "IT": ["Piccolo"], "FR": ["Petit"], "CA": ["Petit"], "RU": ["\u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439"]}], ["Grande", {"PT": ["Grande"], "EN": ["Big"], "IT": ["Grande"], "FR": ["Grand"], "CA": ["Gran"], "RU": ["\u0411\u043e\u043b\u044c\u0448\u043e\u0439"]}], ["Corto", {"PT": ["Curto"], "EN": ["Short"], "IT": ["Corto"], "FR": ["Court"], "CA": ["Curt"], "RU": ["\u041a\u043e\u0440\u043e\u0442\u043a\u0438\u0439"]}], ["Largo", {"PT": ["Lungo"], "EN": ["Long"], "IT": ["Lungo"], "FR": ["Long"], "CA": ["Llarg"], "RU": ["\u0414\u043b\u0438\u043d\u043d\u044b\u0439"]}], ["Color", {"PT": ["Cor", "M"], "EN": ["Color"], "IT": ["Colore", "M"], "FR": ["Coleur", "M"], "CA": ["Color", "M"], "RU": ["\u0426\u0432\u0435\u0442", "M"]}], ["Colorido", {"PT": ["Colorido"], "EN": ["Colorful"], "IT": ["Colorato"], "FR": ["Color\u00e9"], "CA": ["Colorit"], "RU": ["\u041a\u0440\u0430\u0441\u043e\u0447\u043d\u044b\u0439"]}], ["Blanco", {"PT": ["Branco"], "EN": ["White"], "IT": ["Bianco"], "FR": ["Blanc"], "CA": ["Blanc"], "RU": ["\u0411\u0435\u043b\u044b\u0439"]}], ["Negro", {"PT": ["Preto"], "EN": ["Black"], "IT": ["Nero"], "FR": ["Noir"], "CA": ["Negre"], "RU": ["\u0427\u0435\u0440\u043d\u044b\u0439"]}], ["Gris", {"PT": ["Cinza"], "EN": ["Grey"], "IT": ["Grigio"], "FR": ["Gris"], "CA": ["Gris"], "RU": ["\u0421\u0435\u0440\u044b\u0439"]}], ["Rojo", {"PT": ["Vermelho"], "EN": ["Red"], "IT": ["Rosso"], "FR": ["Rouge"], "CA": ["Vermell"], "RU": ["\u041a\u0440\u0430\u0441\u043d\u044b\u0439"]}], ["Amarillo", {"PT": ["Amarelo"], "EN": ["Yellow"], "IT": ["Giallo"], "FR": ["Jaune"], "CA": ["Groc"], "RU": ["\u0416\u0435\u043b\u0442\u044b\u0439"]}], ["Verde", {"PT": ["Verde"], "EN": ["Green"], "IT": ["Verde"], "FR": ["Vert"], "CA": ["Vert"], "RU": ["\u0417\u0435\u043b\u0435\u043d\u044b\u0439"]}], ["Azul", {"PT": ["Azul"], "EN": ["Blu"], "IT": ["Azzurro, Blu"], "FR": ["Bleu"], "CA": ["Blau"], "RU": ["\u0413\u043e\u043b\u0443\u0431"]}], ["Marr\u00f3n", {"PT": ["Marrom"], "EN": ["Brown"], "IT": ["Marrone"], "FR": ["Marron"], "CA": ["Marr\u00f3"], "RU": ["\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"]}], ["Naranja", {"PT": ["Laranja"], "EN": ["Orange"], "IT": ["Arancione"], "FR": ["Orange"], "CA": ["Taronja"], "RU": ["\u041e\u0440\u0430\u043d\u0436\u0435\u0432\u044b\u0439"]}], ["Hogar, Casa", {"PT": ["Casa", "F"], "EN": ["Home, House"], "IT": ["Casa", "F"], "FR": ["Maison", "F"], "CA": ["Casa", "F"], "RU": ["\u0414\u043e\u043c", "M"]}], ["Perro", {"PT": ["Cachorro", "M"], "EN": ["Dog"], "IT": ["Cane", "M"], "FR": ["Chien", "M"], "CA": ["Gos", "M"], "RU": ["\u0421\u043e\u0431\u0430\u043a\u0430", "F"]}], ["Gato", {"PT": ["Gato", "M"], "EN": ["Cat"], "IT": ["Gatto", "M"], "FR": ["Chat", "M"], "CA": ["Gat", "M"], "RU": ["\u041a\u043e\u0448\u043a\u0430", "F"]}], ["Pan", {"PT": ["P\u00e3o", "M"], "EN": ["Bread"], "IT": ["Pane", "M"], "FR": ["Pain", "M"], "CA": ["Pa", "M"], "RU": ["\u0425\u043b\u0435\u0431", "M"]}], ["Agua", {"PT": ["\u00c1gua", "F"], "EN": ["Water"], "IT": ["Acqua", "F"], "FR": ["Eau", "F"], "CA": ["Aigua", "F"], "RU": ["\u0412\u043e\u0434\u0430", "F"]}], ["Leche", {"PT": ["Leite", "M"], "EN": ["Milk"], "IT": ["Latte", "M"], "FR": ["Lait", "M"], "CA": ["Llet", "M"], "RU": ["\u041c\u043e\u043b\u043e\u043a\u043e", "N"]}], ["Mantequilla", {"PT": ["Manteiga", "F"], "EN": ["Butter"], "IT": ["Burro", "M"], "FR": ["Beurre", "M"], "CA": ["Mantega", "F"], "RU": ["\u041c\u0430\u0441\u043b\u043e", "N"]}], ["Manzana", {"PT": ["Ma\u00e7\u00e3", "F"], "EN": ["Apple"], "IT": ["Mela", "F"], "FR": ["Pomme", "F"], "CA": ["Poma", "F"], "RU": ["\u042f\u0431\u043b\u043e\u043a\u043e", "N"]}], ["Carne", {"PT": ["Carne", "F"], "EN": ["Meat"], "IT": ["Carne", "F"], "FR": ["Viande", "F"], "CA": ["Carn", "F"], "RU": ["\u041c\u044f\u0441\u043e", "N"]}], ["Pez, Pescado", {"PT": ["Peixe", "M"], "EN": ["Fish"], "IT": ["Pesce", "M"], "FR": ["Poisson", "M"], "CA": ["Peix", "M"], "RU": ["\u0420\u044b\u0431\u0430", "F"]}], ["Verdura, Legumbre", {"PT": ["Verdura, Legume", "F"], "EN": ["Vegetable"], "IT": ["Verdura", "F"], "FR": ["L\u00e9gume", "F"], "CA": ["Verdura, Llegum", "F"], "RU": ["\u041e\u0432\u043e\u0449", "M"]}], ["Fruta", {"PT": ["Fruta", "F"], "EN": ["Fruit"], "IT": ["Frutta", "F"], "FR": ["Fruit", "M"], "CA": ["Fruita", "F"], "RU": ["\u041f\u043b\u043e\u0434", "M"]}], ["Tomate", {"PT": ["Tomate", "M"], "EN": ["Tomato"], "IT": ["Pomodoro", "M"], "FR": ["Tomate", "F"], "CA": ["Tom\u00e0quet", "M"], "RU": ["\u041f\u043e\u043c\u0438\u0434\u043e\u0440", "M"]}], ["Menos mal!", {"PT": ["Menos mal!"], "EN": ["Luckily, Thank Goodness!"], "IT": ["Meno male!"], "FR": ["Hereusement!"], "CA": ["Menys mal!"], "RU": ["\u042f \u0440\u0430\u0434, \u0421\u043b\u0430\u0432\u0430 \u0411\u043e\u0433\u0443!"]}]]
+[
+  {
+    "IT": [
+      "Si"
+    ],
+    "FR": [
+      "Oui"
+    ],
+    "RU": [
+      "\u0414\u0430"
+    ],
+    "CA": [
+      "S\u00ed"
+    ],
+    "PT": [
+      "Sim"
+    ],
+    "ES": [
+      "S\u00ed"
+    ],
+    "EN": [
+      "Yes"
+    ]
+  },
+  {
+    "IT": [
+      "No, Non"
+    ],
+    "FR": [
+      "Ne, Non"
+    ],
+    "RU": [
+      "\u041d\u0435, \u041d\u0435\u0442"
+    ],
+    "CA": [
+      "No"
+    ],
+    "PT": [
+      "N\u00e3o"
+    ],
+    "ES": [
+      "No"
+    ],
+    "EN": [
+      "No, Not"
+    ]
+  },
+  {
+    "IT": [
+      "Benvenutto"
+    ],
+    "FR": [
+      "Bienvenue"
+    ],
+    "RU": [
+      "\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Benvingut"
+    ],
+    "PT": [
+      "Bemvindo"
+    ],
+    "ES": [
+      "Bienvenido"
+    ],
+    "EN": [
+      "Welcome"
+    ]
+  },
+  {
+    "IT": [
+      "Pronto?"
+    ],
+    "FR": [
+      "All\u00f4?"
+    ],
+    "RU": [
+      "\u0410\u043b\u043b\u043e"
+    ],
+    "CA": [
+      "Digui?"
+    ],
+    "PT": [
+      "Oi? (Telefone)"
+    ],
+    "ES": [
+      "Diga? (Tel\u00e9fono)"
+    ],
+    "EN": [
+      "Hi, Hello (Telephone)"
+    ]
+  },
+  {
+    "IT": [
+      "Ciao, Salve"
+    ],
+    "FR": [
+      "All\u00f4, Salut"
+    ],
+    "RU": [
+      "\u041f\u0440\u0438\u0432\u0435\u0442, \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0438\u0435"
+    ],
+    "CA": [
+      "Hola"
+    ],
+    "PT": [
+      "Oi, Ol\u00e1"
+    ],
+    "ES": [
+      "Hola"
+    ],
+    "EN": [
+      "Hi, Hello"
+    ]
+  },
+  {
+    "IT": [
+      "Buongiorno"
+    ],
+    "FR": [
+      "Bonjour"
+    ],
+    "RU": [
+      "\u0414\u043e\u0431\u0440\u0438\u0439 \u0414\u0435\u043d\u044c"
+    ],
+    "CA": [
+      "Bon d\u00eda"
+    ],
+    "PT": [
+      "Bom dia"
+    ],
+    "ES": [
+      "Buen d\u00eda"
+    ],
+    "EN": [
+      "Good day"
+    ]
+  },
+  {
+    "IT": [
+      "Buona mattina"
+    ],
+    "FR": [
+      "Bonjour (\u041catin)"
+    ],
+    "RU": [
+      "\u0414\u043e\u0431\u0440\u043e\u0435 \u0443\u0442\u0440\u043e"
+    ],
+    "CA": [
+      "Bona matinada"
+    ],
+    "PT": [
+      "Bom dia (\u041canh\u00e3)"
+    ],
+    "ES": [
+      "Buenos d\u00edas"
+    ],
+    "EN": [
+      "Good morning"
+    ]
+  },
+  {
+    "IT": [
+      "Buon pomeriggio, Buonasera"
+    ],
+    "FR": [
+      "Bonne apr\u00e8s-midi, Bonsoir"
+    ],
+    "RU": [
+      "\u0414\u043e\u0431\u0440\u0438\u0439 \u0412\u0435\u0447\u0435\u0440"
+    ],
+    "CA": [
+      "Bona tarda"
+    ],
+    "PT": [
+      "Boa tarde"
+    ],
+    "ES": [
+      "Buenas tardes"
+    ],
+    "EN": [
+      "Good afternoon, Good evening"
+    ]
+  },
+  {
+    "IT": [
+      "Buona notte"
+    ],
+    "FR": [
+      "Bonne nuit"
+    ],
+    "RU": [
+      "\u0421\u043f\u043e\u043a\u043e\u0439\u043d\u043e\u0439 \u041d\u043e\u0447\u0438"
+    ],
+    "CA": [
+      "Bona nit"
+    ],
+    "PT": [
+      "Boa noite"
+    ],
+    "ES": [
+      "Buenas noches"
+    ],
+    "EN": [
+      "Good night"
+    ]
+  },
+  {
+    "IT": [
+      "Ciao, Addio"
+    ],
+    "FR": [
+      "Adieu"
+    ],
+    "RU": [
+      "\u041f\u043e\u043a\u0430"
+    ],
+    "CA": [
+      "Ad\u00e9u"
+    ],
+    "PT": [
+      "Adeus"
+    ],
+    "ES": [
+      "Adi\u00f3s"
+    ],
+    "EN": [
+      "Bye, Goodbye"
+    ]
+  },
+  {
+    "IT": [
+      "Ci vediamo pi\u00f9 tardi"
+    ],
+    "FR": [
+      "\u00c0 plus tard"
+    ],
+    "RU": [
+      "\u0414\u043e \u0441\u043a\u043e\u0440\u043e\u0433\u043e"
+    ],
+    "CA": [
+      "Fins despr\u00e9s"
+    ],
+    "PT": [
+      "At\u00e9 logo"
+    ],
+    "ES": [
+      "Hasta luego"
+    ],
+    "EN": [
+      "See you later"
+    ]
+  },
+  {
+    "IT": [
+      "Arrivederci"
+    ],
+    "FR": [
+      "Au revoir"
+    ],
+    "RU": [
+      "\u0414\u043e \u0441\u0432\u0438\u0434\u0430\u043d\u044f"
+    ],
+    "CA": [
+      "Ens veiem despr\u00e9s"
+    ],
+    "PT": [
+      "At\u00e9 a vista"
+    ],
+    "ES": [
+      "Hasta la vista"
+    ],
+    "EN": [
+      "See you"
+    ]
+  },
+  {
+    "IT": [
+      "Scusi"
+    ],
+    "FR": [
+      "Pardon"
+    ],
+    "RU": [
+      "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435 (\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435)"
+    ],
+    "CA": [
+      "Perd\u00f2"
+    ],
+    "PT": [
+      "Licen\u00e7a"
+    ],
+    "ES": [
+      "Perd\u00f3n (Atenci\u00f3n)"
+    ],
+    "EN": [
+      "Excuse me"
+    ]
+  },
+  {
+    "IT": [
+      "Scusi, Spiacente"
+    ],
+    "FR": [
+      "Pardon, D\u00e9sol\u00e9"
+    ],
+    "RU": [
+      "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435"
+    ],
+    "CA": [
+      "Perd\u00f2, Disculpi"
+    ],
+    "PT": [
+      "Desculpe"
+    ],
+    "ES": [
+      "Perd\u00f3n (Disculpa)"
+    ],
+    "EN": [
+      "Sorry"
+    ]
+  },
+  {
+    "IT": [
+      "Prego, Per favore"
+    ],
+    "FR": [
+      "S'il vous plait"
+    ],
+    "RU": [
+      "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430"
+    ],
+    "CA": [
+      "Si us plau"
+    ],
+    "PT": [
+      "Por favor"
+    ],
+    "ES": [
+      "Por favor"
+    ],
+    "EN": [
+      "Please"
+    ]
+  },
+  {
+    "IT": [
+      "Grazie"
+    ],
+    "FR": [
+      "Merci"
+    ],
+    "RU": [
+      "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044e"
+    ],
+    "CA": [
+      "Gr\u00e0cies"
+    ],
+    "PT": [
+      "Obrigado, Obrigada"
+    ],
+    "ES": [
+      "Gracias"
+    ],
+    "EN": [
+      "Thanks, Thank you"
+    ]
+  },
+  {
+    "IT": [
+      "Prego, Di niente"
+    ],
+    "FR": [
+      "De rien"
+    ],
+    "RU": [
+      "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u041d\u0435 \u0437\u0430 \u0447\u0442\u043e"
+    ],
+    "CA": [
+      "De res"
+    ],
+    "PT": [
+      "De nada"
+    ],
+    "ES": [
+      "De nada"
+    ],
+    "EN": [
+      "You are welcome"
+    ]
+  },
+  {
+    "IT": [
+      "Complimenti"
+    ],
+    "FR": [
+      "F\u00e9licitations"
+    ],
+    "RU": [
+      "\u041f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f"
+    ],
+    "CA": [
+      "Felicitacions"
+    ],
+    "PT": [
+      "Parab\u00e9ns"
+    ],
+    "ES": [
+      "Felicidades"
+    ],
+    "EN": [
+      "Congratulations"
+    ]
+  },
+  {
+    "IT": [
+      "Che?, Cosa?"
+    ],
+    "FR": [
+      "Quoi?"
+    ],
+    "RU": [
+      "\u0427\u0442\u043e?"
+    ],
+    "CA": [
+      "Qu\u00e9?"
+    ],
+    "PT": [
+      "O que?"
+    ],
+    "ES": [
+      "Qu\u00e9?"
+    ],
+    "EN": [
+      "What?"
+    ]
+  },
+  {
+    "IT": [
+      "Come?"
+    ],
+    "FR": [
+      "Comment?"
+    ],
+    "RU": [
+      "\u041a\u0430\u043a?"
+    ],
+    "CA": [
+      "Com?"
+    ],
+    "PT": [
+      "Como?"
+    ],
+    "ES": [
+      "C\u00f3mo?"
+    ],
+    "EN": [
+      "How?"
+    ]
+  },
+  {
+    "IT": [
+      "Quanto?, Quanta?"
+    ],
+    "FR": [
+      "Combien?"
+    ],
+    "RU": [
+      "\u0421\u043a\u043e\u043b\u044c\u043a\u043e?"
+    ],
+    "CA": [
+      "Quant?, Quanta?"
+    ],
+    "PT": [
+      "Quanto?, Quanta?"
+    ],
+    "ES": [
+      "Cu\u00e1nto?, Cu\u00e1nta?"
+    ],
+    "EN": [
+      "How much? How many?"
+    ]
+  },
+  {
+    "IT": [
+      "Perch\u00e9?"
+    ],
+    "FR": [
+      "Pourquoi?"
+    ],
+    "RU": [
+      "\u041f\u043e\u0447\u0435\u043c\u0443?, \u0417\u0430\u0447\u0435\u043c?"
+    ],
+    "CA": [
+      "Per qu\u00e8?"
+    ],
+    "PT": [
+      "Por que?"
+    ],
+    "ES": [
+      "Por qu\u00e9?"
+    ],
+    "EN": [
+      "Why?"
+    ]
+  },
+  {
+    "IT": [
+      "Perch\u00e9"
+    ],
+    "FR": [
+      "Parce que"
+    ],
+    "RU": [
+      "\u041f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e"
+    ],
+    "CA": [
+      "Perqu\u00e8"
+    ],
+    "PT": [
+      "Porque"
+    ],
+    "ES": [
+      "Porque"
+    ],
+    "EN": [
+      "Because"
+    ]
+  },
+  {
+    "IT": [
+      "Dove?"
+    ],
+    "FR": [
+      "O\u00f9?"
+    ],
+    "RU": [
+      "\u0413\u0434\u0435?"
+    ],
+    "CA": [
+      "On?"
+    ],
+    "PT": [
+      "Onde?"
+    ],
+    "ES": [
+      "D\u00f3nde?"
+    ],
+    "EN": [
+      "Where?"
+    ]
+  },
+  {
+    "IT": [
+      "Quando?"
+    ],
+    "FR": [
+      "Quand?"
+    ],
+    "RU": [
+      "\u041a\u043e\u0433\u0434\u0430?"
+    ],
+    "CA": [
+      "Quan?"
+    ],
+    "PT": [
+      "Quando?"
+    ],
+    "ES": [
+      "Cu\u00e1ndo?"
+    ],
+    "EN": [
+      "When?"
+    ]
+  },
+  {
+    "IT": [
+      "Qual?"
+    ],
+    "FR": [
+      "Lequel, Laquelle"
+    ],
+    "RU": [
+      "\u041a\u0430\u043a\u043e\u0439?"
+    ],
+    "CA": [
+      "Quin?"
+    ],
+    "PT": [
+      "Qual?"
+    ],
+    "ES": [
+      "Cu\u00e1l?"
+    ],
+    "EN": [
+      "Which?"
+    ]
+  },
+  {
+    "IT": [
+      "Chi?"
+    ],
+    "FR": [
+      "Qui?"
+    ],
+    "RU": [
+      "\u041a\u0442\u043e?"
+    ],
+    "CA": [
+      "Qui?"
+    ],
+    "PT": [
+      "Quem?"
+    ],
+    "ES": [
+      "Qui\u00e9n?"
+    ],
+    "EN": [
+      "Who?"
+    ]
+  },
+  {
+    "IT": [
+      "Domanda",
+      "F"
+    ],
+    "FR": [
+      "Question",
+      "F"
+    ],
+    "RU": [
+      "\u0412\u043e\u043f\u0440\u043e\u0441",
+      "M"
+    ],
+    "CA": [
+      "Pregunta, Q\u00fcesti\u00f3",
+      "F"
+    ],
+    "PT": [
+      "Pergunta, Quest\u00e3o",
+      "F"
+    ],
+    "ES": [
+      "Pregunta, Questi\u00f3n",
+      "F"
+    ],
+    "EN": [
+      "Question"
+    ]
+  },
+  {
+    "IT": [
+      "Risposta",
+      "F"
+    ],
+    "FR": [
+      "R\u00e9ponse",
+      "F"
+    ],
+    "RU": [
+      "\u041e\u0442\u0432\u0435\u0442",
+      "M"
+    ],
+    "CA": [
+      "Resposta",
+      "F"
+    ],
+    "PT": [
+      "Resposta, Contesta\u00e7\u00e3o",
+      "F"
+    ],
+    "ES": [
+      "Respuesta",
+      "F"
+    ],
+    "EN": [
+      "Answer, Response"
+    ]
+  },
+  {
+    "IT": [
+      "Uomo",
+      "M"
+    ],
+    "FR": [
+      "Homme",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u0443\u0447\u0449\u0438\u043d\u0430",
+      "M"
+    ],
+    "CA": [
+      "Home",
+      "M"
+    ],
+    "PT": [
+      "Homem",
+      "M"
+    ],
+    "ES": [
+      "Hombre",
+      "M"
+    ],
+    "EN": [
+      "Man"
+    ]
+  },
+  {
+    "IT": [
+      "Donna",
+      "F"
+    ],
+    "FR": [
+      "Femme",
+      "F"
+    ],
+    "RU": [
+      "\u0416\u0435\u043d\u0449\u0438\u043d\u0430",
+      "F"
+    ],
+    "CA": [
+      "Dona",
+      "F"
+    ],
+    "PT": [
+      "Mulher",
+      "F"
+    ],
+    "ES": [
+      "Mujer",
+      "F"
+    ],
+    "EN": [
+      "Woman"
+    ]
+  },
+  {
+    "IT": [
+      "Ragazzo",
+      "M"
+    ],
+    "FR": [
+      "Gar\u00e7on",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u0430\u043b\u044c\u0447\u0438\u043a",
+      "M"
+    ],
+    "CA": [
+      "Noi",
+      "M"
+    ],
+    "PT": [
+      "Garoto",
+      "M"
+    ],
+    "ES": [
+      "Chico",
+      "M"
+    ],
+    "EN": [
+      "Boy"
+    ]
+  },
+  {
+    "IT": [
+      "Ragazza",
+      "F"
+    ],
+    "FR": [
+      "Fille",
+      "F"
+    ],
+    "RU": [
+      "\u0414\u0435\u0432\u043e\u0447\u043a\u0430",
+      "F"
+    ],
+    "CA": [
+      "Noia",
+      "F"
+    ],
+    "PT": [
+      "Garota",
+      "F"
+    ],
+    "ES": [
+      "Chica",
+      "F"
+    ],
+    "EN": [
+      "Girl"
+    ]
+  },
+  {
+    "IT": [
+      "Bambino, Bambina"
+    ],
+    "FR": [
+      "Enfant",
+      "M"
+    ],
+    "RU": [
+      "\u0420\u0435\u0431\u0435\u043d\u043e\u043a, \u0414\u0438\u0442\u044f",
+      "M"
+    ],
+    "CA": [
+      "Nen, Nena"
+    ],
+    "PT": [
+      "Crian\u00e7a",
+      "F"
+    ],
+    "ES": [
+      "Ni\u00f1o, Cr\u00edo"
+    ],
+    "EN": [
+      "Child"
+    ]
+  },
+  {
+    "IT": [
+      "Bambini",
+      "M"
+    ],
+    "FR": [
+      "Enfants",
+      "M"
+    ],
+    "RU": [
+      "\u0414\u0435\u0442\u0438"
+    ],
+    "CA": [
+      "Nens",
+      "M"
+    ],
+    "PT": [
+      "Crian\u00e7as",
+      "F"
+    ],
+    "ES": [
+      "Cr\u00edos",
+      "M"
+    ],
+    "EN": [
+      "Children"
+    ]
+  },
+  {
+    "FR": [
+      "B\u00e9b\u00e9",
+      "M"
+    ],
+    "ES": [
+      "Beb\u00e9",
+      "M"
+    ],
+    "CA": [
+      "Nad\u00f3, Nadona",
+      "M"
+    ],
+    "PT": [
+      "Beb\u00ea",
+      "M"
+    ],
+    "EN": [
+      "Baby"
+    ]
+  },
+  {
+    "IT": [
+      "Pap\u00e0",
+      "M"
+    ],
+    "FR": [
+      "Papa",
+      "M"
+    ],
+    "RU": [
+      "\u041f\u0430\u043f\u0430",
+      "M"
+    ],
+    "CA": [
+      "Pap\u00e0",
+      "M"
+    ],
+    "PT": [
+      "Pai (Meu)",
+      "M"
+    ],
+    "ES": [
+      "Pap\u00e1",
+      "M"
+    ],
+    "EN": [
+      "Dad"
+    ]
+  },
+  {
+    "IT": [
+      "Mamma",
+      "F"
+    ],
+    "FR": [
+      "Mamman",
+      "F"
+    ],
+    "RU": [
+      "\u041c\u0430\u043c\u0430",
+      "F"
+    ],
+    "CA": [
+      "Mam\u00e0",
+      "F"
+    ],
+    "PT": [
+      "M\u00e3e (Minha)",
+      "F"
+    ],
+    "ES": [
+      "Mam\u00e1",
+      "F"
+    ],
+    "EN": [
+      "Mom"
+    ]
+  },
+  {
+    "IT": [
+      "Padre",
+      "M"
+    ],
+    "FR": [
+      "P\u00e8re",
+      "M"
+    ],
+    "RU": [
+      "\u041e\u0442\u0435\u0446",
+      "M"
+    ],
+    "CA": [
+      "Pare",
+      "M"
+    ],
+    "PT": [
+      "Pai",
+      "M"
+    ],
+    "ES": [
+      "Padre",
+      "M"
+    ],
+    "EN": [
+      "Father"
+    ]
+  },
+  {
+    "IT": [
+      "Madre",
+      "F"
+    ],
+    "FR": [
+      "M\u00e8re",
+      "F"
+    ],
+    "RU": [
+      "\u041c\u0430\u0442\u044c",
+      "F"
+    ],
+    "CA": [
+      "Mare",
+      "F"
+    ],
+    "PT": [
+      "M\u00e3e",
+      "F"
+    ],
+    "ES": [
+      "Madre",
+      "F"
+    ],
+    "EN": [
+      "Mother"
+    ]
+  },
+  {
+    "IT": [
+      "Nonno",
+      "M"
+    ],
+    "FR": [
+      "Grand-p\u00e8re",
+      "M"
+    ],
+    "RU": [
+      "\u0414\u0435\u0434\u0443\u0448\u043a\u0430",
+      "M"
+    ],
+    "CA": [
+      "Avi",
+      "M"
+    ],
+    "PT": [
+      "Av\u00f4",
+      "M"
+    ],
+    "ES": [
+      "Abuelo",
+      "M"
+    ],
+    "EN": [
+      "Grandfather"
+    ]
+  },
+  {
+    "IT": [
+      "Nonna",
+      "F"
+    ],
+    "FR": [
+      "Grand-m\u00e8re",
+      "F"
+    ],
+    "RU": [
+      "\u0411\u0430\u0431\u0443\u0448\u043a\u0430",
+      "F"
+    ],
+    "CA": [
+      "\u00c0via",
+      "F"
+    ],
+    "PT": [
+      "Av\u00f3",
+      "F"
+    ],
+    "ES": [
+      "Abuela",
+      "F"
+    ],
+    "EN": [
+      "Grandmother"
+    ]
+  },
+  {
+    "IT": [
+      "Figlio",
+      "M"
+    ],
+    "FR": [
+      "Fils (Mon)",
+      "M"
+    ],
+    "RU": [
+      "\u0421\u044b\u043d",
+      "M"
+    ],
+    "CA": [
+      "Fill",
+      "M"
+    ],
+    "PT": [
+      "Filho",
+      "M"
+    ],
+    "ES": [
+      "Hijo",
+      "M"
+    ],
+    "EN": [
+      "Son"
+    ]
+  },
+  {
+    "IT": [
+      "Figlia",
+      "F"
+    ],
+    "FR": [
+      "Fille (Ma)",
+      "F"
+    ],
+    "RU": [
+      "\u0414\u043e\u0447\u044c",
+      "F"
+    ],
+    "CA": [
+      "Filla",
+      "F"
+    ],
+    "PT": [
+      "Filha",
+      "F"
+    ],
+    "ES": [
+      "Hija",
+      "F"
+    ],
+    "EN": [
+      "Daughter"
+    ]
+  },
+  {
+    "IT": [
+      "Sorello",
+      "M"
+    ],
+    "FR": [
+      "Fr\u00e8re",
+      "M"
+    ],
+    "RU": [
+      "\u0411\u0440\u0430\u0442",
+      "M"
+    ],
+    "CA": [
+      "Germ\u00e0",
+      "M"
+    ],
+    "PT": [
+      "Irm\u00e3o",
+      "M"
+    ],
+    "ES": [
+      "Hermano",
+      "M"
+    ],
+    "EN": [
+      "Brother"
+    ]
+  },
+  {
+    "IT": [
+      "Sorella",
+      "F"
+    ],
+    "FR": [
+      "Soeur",
+      "F"
+    ],
+    "RU": [
+      "\u0421\u0435\u0441\u0442\u0440\u0430",
+      "F"
+    ],
+    "CA": [
+      "Germana",
+      "F"
+    ],
+    "PT": [
+      "Irm\u00e3",
+      "F"
+    ],
+    "ES": [
+      "Hermana",
+      "F"
+    ],
+    "EN": [
+      "Sister"
+    ]
+  },
+  {
+    "IT": [
+      "Fidanzato",
+      "M"
+    ],
+    "FR": [
+      "Copain",
+      "M"
+    ],
+    "RU": [
+      "\u0414\u0440\u0443\u0436\u043e\u043a",
+      "M"
+    ],
+    "CA": [
+      "Nuvi",
+      "M"
+    ],
+    "PT": [
+      "Namorado",
+      "M"
+    ],
+    "ES": [
+      "Novio",
+      "M"
+    ],
+    "EN": [
+      "Boyfriend, Fianc"
+    ]
+  },
+  {
+    "IT": [
+      "Fidanzata",
+      "F"
+    ],
+    "FR": [
+      "Copine",
+      "F"
+    ],
+    "RU": [
+      "\u041f\u043e\u0434\u0440\u0443\u0433\u0430",
+      "F"
+    ],
+    "CA": [
+      "N\u00favia",
+      "F"
+    ],
+    "PT": [
+      "Namorada",
+      "F"
+    ],
+    "ES": [
+      "Novia",
+      "F"
+    ],
+    "EN": [
+      "Girlfriend"
+    ]
+  },
+  {
+    "IT": [
+      "Marito",
+      "M"
+    ],
+    "FR": [
+      "Mari",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u0443\u0436",
+      "M"
+    ],
+    "CA": [
+      "Marit",
+      "M"
+    ],
+    "PT": [
+      "Esposo, Marido",
+      "M"
+    ],
+    "ES": [
+      "Esposo, Marido",
+      "M"
+    ],
+    "EN": [
+      "Husband"
+    ]
+  },
+  {
+    "IT": [
+      "Moglie, Donna",
+      "F"
+    ],
+    "FR": [
+      "Femme, \u00c9pouse",
+      "F"
+    ],
+    "RU": [
+      "\u0416\u0435\u043d\u0430",
+      "F"
+    ],
+    "CA": [
+      "Esposa, Dona",
+      "F"
+    ],
+    "PT": [
+      "Esposa, Mulher",
+      "F"
+    ],
+    "ES": [
+      "Esposa, Mujer",
+      "F"
+    ],
+    "EN": [
+      "Wife"
+    ]
+  },
+  {
+    "IT": [
+      "Signore",
+      "M"
+    ],
+    "FR": [
+      "Monsieur",
+      "M"
+    ],
+    "RU": [
+      "\u0421\u044d\u0440, \u0414\u0436\u0435\u043d\u0442\u043b\u044c\u043c\u0435\u043d",
+      "M"
+    ],
+    "CA": [
+      "Senyor",
+      "M"
+    ],
+    "PT": [
+      "Senhor, Cavalheiro",
+      "M"
+    ],
+    "ES": [
+      "Se\u00f1or, Don, Caballero",
+      "M"
+    ],
+    "EN": [
+      "Sir, Gentleman"
+    ]
+  },
+  {
+    "IT": [
+      "Signora",
+      "F"
+    ],
+    "FR": [
+      "Madame, Dame",
+      "F"
+    ],
+    "RU": [
+      "\u041c\u0430\u0434\u0430\u043c, \u041b\u0435\u0434\u0438, \u0414\u0430\u043c\u0430",
+      "F"
+    ],
+    "CA": [
+      "Senyora",
+      "F"
+    ],
+    "PT": [
+      "Senhora, Dona",
+      "F"
+    ],
+    "ES": [
+      "Se\u00f1ora, Do\u00f1a, Dama",
+      "F"
+    ],
+    "EN": [
+      "Lady, Madam, Dame"
+    ]
+  },
+  {
+    "IT": [
+      "Signorina",
+      "F"
+    ],
+    "FR": [
+      "Mademoiselle",
+      "F"
+    ],
+    "RU": [
+      "\u041c\u0438\u0441\u0441",
+      "F"
+    ],
+    "CA": [
+      "Senyoreta",
+      "F"
+    ],
+    "PT": [
+      "Senhorita",
+      "F"
+    ],
+    "ES": [
+      "Se\u00f1orita",
+      "F"
+    ],
+    "EN": [
+      "Miss"
+    ]
+  },
+  {
+    "IT": [
+      "Amico",
+      "M"
+    ],
+    "FR": [
+      "Ami",
+      "M"
+    ],
+    "RU": [
+      "\u0414\u0440\u0443\u0433",
+      "M"
+    ],
+    "CA": [
+      "Amic",
+      "M"
+    ],
+    "PT": [
+      "Amigo",
+      "M"
+    ],
+    "ES": [
+      "Amigo",
+      "M"
+    ],
+    "EN": [
+      "Friend"
+    ]
+  },
+  {
+    "IT": [
+      "Persona",
+      "F"
+    ],
+    "FR": [
+      "Personne",
+      "F"
+    ],
+    "RU": [
+      "\u0427\u0435\u043b\u043e\u0432\u0435\u043a",
+      "M"
+    ],
+    "CA": [
+      "Persona",
+      "F"
+    ],
+    "PT": [
+      "Pessoa",
+      "F"
+    ],
+    "ES": [
+      "Persona",
+      "F"
+    ],
+    "EN": [
+      "Person"
+    ]
+  },
+  {
+    "IT": [
+      "Gente",
+      "F"
+    ],
+    "FR": [
+      "Gens",
+      "F"
+    ],
+    "RU": [
+      "\u041b\u044e\u0434\u0438"
+    ],
+    "CA": [
+      "Gent",
+      "F"
+    ],
+    "PT": [
+      "Gente",
+      "F"
+    ],
+    "ES": [
+      "Gente",
+      "F"
+    ],
+    "EN": [
+      "People"
+    ]
+  },
+  {
+    "IT": [
+      "Zero"
+    ],
+    "FR": [
+      "Z\u00e9ro"
+    ],
+    "RU": [
+      "\u043d\u0443\u043b\u044c"
+    ],
+    "CA": [
+      "Zero"
+    ],
+    "PT": [
+      "Zero"
+    ],
+    "ES": [
+      "Cero"
+    ],
+    "EN": [
+      "Zero"
+    ]
+  },
+  {
+    "IT": [
+      "Uno"
+    ],
+    "FR": [
+      "Un"
+    ],
+    "RU": [
+      "\u041e\u0434\u0438\u043d"
+    ],
+    "CA": [
+      "Un"
+    ],
+    "PT": [
+      "Um"
+    ],
+    "ES": [
+      "Uno"
+    ],
+    "EN": [
+      "One"
+    ]
+  },
+  {
+    "IT": [
+      "Due"
+    ],
+    "FR": [
+      "Deux"
+    ],
+    "RU": [
+      "\u0414\u0432\u0430"
+    ],
+    "CA": [
+      "Dos"
+    ],
+    "PT": [
+      "Dois"
+    ],
+    "ES": [
+      "Dos"
+    ],
+    "EN": [
+      "Two"
+    ]
+  },
+  {
+    "IT": [
+      "Tre"
+    ],
+    "FR": [
+      "Trois"
+    ],
+    "RU": [
+      "\u0422\u0440\u0438"
+    ],
+    "CA": [
+      "Tres"
+    ],
+    "PT": [
+      "Tr\u00eas"
+    ],
+    "ES": [
+      "Tres"
+    ],
+    "EN": [
+      "Three"
+    ]
+  },
+  {
+    "IT": [
+      "Quattro"
+    ],
+    "FR": [
+      "Quatre"
+    ],
+    "RU": [
+      "\u0427\u0435\u0442\u044b\u0440\u0435"
+    ],
+    "CA": [
+      "Quatre"
+    ],
+    "PT": [
+      "Quatro"
+    ],
+    "ES": [
+      "Cuatro"
+    ],
+    "EN": [
+      "Four"
+    ]
+  },
+  {
+    "IT": [
+      "Cinque"
+    ],
+    "FR": [
+      "Cinq"
+    ],
+    "RU": [
+      "\u041f\u044f\u0442\u044c"
+    ],
+    "CA": [
+      "Cinc"
+    ],
+    "PT": [
+      "Cinco"
+    ],
+    "ES": [
+      "Cinco"
+    ],
+    "EN": [
+      "Five"
+    ]
+  },
+  {
+    "IT": [
+      "Sei"
+    ],
+    "FR": [
+      "Six"
+    ],
+    "RU": [
+      "\u0428\u0435\u0441\u0442\u044c"
+    ],
+    "CA": [
+      "Sis"
+    ],
+    "PT": [
+      "Seis"
+    ],
+    "ES": [
+      "Seis"
+    ],
+    "EN": [
+      "Six"
+    ]
+  },
+  {
+    "IT": [
+      "Sette"
+    ],
+    "FR": [
+      "Sept"
+    ],
+    "RU": [
+      "\u0421\u0435\u043c\u044c"
+    ],
+    "CA": [
+      "Set"
+    ],
+    "PT": [
+      "Sete"
+    ],
+    "ES": [
+      "Siete"
+    ],
+    "EN": [
+      "Seven"
+    ]
+  },
+  {
+    "IT": [
+      "Otto"
+    ],
+    "FR": [
+      "Huit"
+    ],
+    "RU": [
+      "\u0412\u043e\u0441\u0435\u043c\u044c"
+    ],
+    "CA": [
+      "Vuit"
+    ],
+    "PT": [
+      "Oito"
+    ],
+    "ES": [
+      "Ocho"
+    ],
+    "EN": [
+      "Eight"
+    ]
+  },
+  {
+    "IT": [
+      "Nove"
+    ],
+    "FR": [
+      "Neuf"
+    ],
+    "RU": [
+      "\u0414\u0435\u0432\u044f\u0442\u044c"
+    ],
+    "CA": [
+      "Nou"
+    ],
+    "PT": [
+      "Nove"
+    ],
+    "ES": [
+      "Nueve"
+    ],
+    "EN": [
+      "Nine"
+    ]
+  },
+  {
+    "IT": [
+      "Dieci"
+    ],
+    "FR": [
+      "Dix"
+    ],
+    "RU": [
+      "\u0414\u0435\u0441\u044f\u0442\u044c"
+    ],
+    "CA": [
+      "Deu"
+    ],
+    "PT": [
+      "Dez"
+    ],
+    "ES": [
+      "Diez"
+    ],
+    "EN": [
+      "Ten"
+    ]
+  },
+  {
+    "IT": [
+      "Undici"
+    ],
+    "FR": [
+      "Onze"
+    ],
+    "RU": [
+      "\u041e\u0434\u0438\u043d\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Onze"
+    ],
+    "PT": [
+      "Onze"
+    ],
+    "ES": [
+      "Once"
+    ],
+    "EN": [
+      "Eleven"
+    ]
+  },
+  {
+    "IT": [
+      "Dodici"
+    ],
+    "FR": [
+      "Douze"
+    ],
+    "RU": [
+      "\u0414\u0432\u0435\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Dotze"
+    ],
+    "PT": [
+      "Doze"
+    ],
+    "ES": [
+      "Doce"
+    ],
+    "EN": [
+      "Twelve"
+    ]
+  },
+  {
+    "IT": [
+      "Tredici"
+    ],
+    "FR": [
+      "Treize"
+    ],
+    "RU": [
+      "\u0422\u0440\u0438\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Tretze"
+    ],
+    "PT": [
+      "Treze"
+    ],
+    "ES": [
+      "Trece"
+    ],
+    "EN": [
+      "Thirteen"
+    ]
+  },
+  {
+    "IT": [
+      "Quattordici"
+    ],
+    "FR": [
+      "Quatorze"
+    ],
+    "RU": [
+      "\u0427\u0435\u0442\u044b\u0440\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Catorze"
+    ],
+    "PT": [
+      "Quatorze"
+    ],
+    "ES": [
+      "Catorce"
+    ],
+    "EN": [
+      "Fourteen"
+    ]
+  },
+  {
+    "IT": [
+      "Quindici"
+    ],
+    "FR": [
+      "Quinze"
+    ],
+    "RU": [
+      "\u041f\u044f\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Quinze"
+    ],
+    "PT": [
+      "Quinze"
+    ],
+    "ES": [
+      "Quince"
+    ],
+    "EN": [
+      "Fifteen"
+    ]
+  },
+  {
+    "IT": [
+      "Sedici"
+    ],
+    "FR": [
+      "Seize"
+    ],
+    "RU": [
+      "\u0428\u0435\u0441\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Setze"
+    ],
+    "PT": [
+      "Dezesseis"
+    ],
+    "ES": [
+      "Diecis\u00e9is"
+    ],
+    "EN": [
+      "Sixteen"
+    ]
+  },
+  {
+    "IT": [
+      "Diciassette"
+    ],
+    "FR": [
+      "Dix-sept"
+    ],
+    "RU": [
+      "\u0421\u0435\u043c\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Disset"
+    ],
+    "PT": [
+      "Dezessete"
+    ],
+    "ES": [
+      "Diecisiete"
+    ],
+    "EN": [
+      "Seventeen"
+    ]
+  },
+  {
+    "IT": [
+      "Diciotto"
+    ],
+    "FR": [
+      "Dix-huit"
+    ],
+    "RU": [
+      "\u0412\u043e\u0441\u0435\u043c\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Divuit"
+    ],
+    "PT": [
+      "Dezoito"
+    ],
+    "ES": [
+      "Dieciocho"
+    ],
+    "EN": [
+      "Eighteen"
+    ]
+  },
+  {
+    "IT": [
+      "Diciannove"
+    ],
+    "FR": [
+      "Dix-neuf"
+    ],
+    "RU": [
+      "\u0414\u0435\u0432\u044f\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Dinou"
+    ],
+    "PT": [
+      "Dezenove"
+    ],
+    "ES": [
+      "Diecinueve"
+    ],
+    "EN": [
+      "Nineteen"
+    ]
+  },
+  {
+    "IT": [
+      "Venti"
+    ],
+    "FR": [
+      "Vingt"
+    ],
+    "RU": [
+      "\u0414\u0432\u0430\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Vint"
+    ],
+    "PT": [
+      "Vinte"
+    ],
+    "ES": [
+      "Veinte"
+    ],
+    "EN": [
+      "Twenty"
+    ]
+  },
+  {
+    "IT": [
+      "Trenta"
+    ],
+    "FR": [
+      "Trente"
+    ],
+    "RU": [
+      "\u0422\u0440\u0438\u0434\u0446\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Trenta"
+    ],
+    "PT": [
+      "Trinta"
+    ],
+    "ES": [
+      "Treinta"
+    ],
+    "EN": [
+      "Thirty"
+    ]
+  },
+  {
+    "IT": [
+      "Quaranta"
+    ],
+    "FR": [
+      "Quarante"
+    ],
+    "RU": [
+      "\u0421\u043e\u0440\u043e\u043a"
+    ],
+    "CA": [
+      "Quaranta"
+    ],
+    "PT": [
+      "Quarenta"
+    ],
+    "ES": [
+      "Cuarenta"
+    ],
+    "EN": [
+      "Fourty"
+    ]
+  },
+  {
+    "IT": [
+      "Cinquanta"
+    ],
+    "FR": [
+      "Cinquante"
+    ],
+    "RU": [
+      "\u041f\u044f\u0442\u044c\u0434\u0435\u0441\u044f\u0442"
+    ],
+    "CA": [
+      "Cinquata"
+    ],
+    "PT": [
+      "Cinqueta"
+    ],
+    "ES": [
+      "Cincueta"
+    ],
+    "EN": [
+      "Fifty"
+    ]
+  },
+  {
+    "IT": [
+      "Sessanta"
+    ],
+    "FR": [
+      "Soixante"
+    ],
+    "RU": [
+      "\u0428\u0435\u0441\u0442\u044c\u0434\u0435\u0441\u044f\u0442"
+    ],
+    "CA": [
+      "Seixanta"
+    ],
+    "PT": [
+      "Sessenta"
+    ],
+    "ES": [
+      "Sesenta"
+    ],
+    "EN": [
+      "Sixty"
+    ]
+  },
+  {
+    "IT": [
+      "Settanta"
+    ],
+    "FR": [
+      "Soixante-dix"
+    ],
+    "RU": [
+      "\u0421\u0435\u043c\u044c\u0434\u0435\u0441\u044f\u0442"
+    ],
+    "CA": [
+      "Setanta"
+    ],
+    "PT": [
+      "Setenta"
+    ],
+    "ES": [
+      "Setenta"
+    ],
+    "EN": [
+      "Seventy"
+    ]
+  },
+  {
+    "IT": [
+      "Ottanta"
+    ],
+    "FR": [
+      "Quatre-vingts"
+    ],
+    "RU": [
+      "\u0412\u043e\u0441\u0435\u043c\u044c\u0434\u0435\u0441\u044f\u0442"
+    ],
+    "CA": [
+      "Vuitanta"
+    ],
+    "PT": [
+      "Oitenta"
+    ],
+    "ES": [
+      "Ochenta"
+    ],
+    "EN": [
+      "Eighty"
+    ]
+  },
+  {
+    "IT": [
+      "Novanta"
+    ],
+    "FR": [
+      "Quatre-vingt-dix"
+    ],
+    "RU": [
+      "\u0414\u0435\u0432\u044f\u043d\u043e\u0441\u0442\u043e"
+    ],
+    "CA": [
+      "Noranta"
+    ],
+    "PT": [
+      "Noventa"
+    ],
+    "ES": [
+      "Noventa"
+    ],
+    "EN": [
+      "Ninety"
+    ]
+  },
+  {
+    "IT": [
+      "Cento"
+    ],
+    "FR": [
+      "Cent"
+    ],
+    "RU": [
+      "\u0421\u0442\u043e"
+    ],
+    "CA": [
+      "Cent"
+    ],
+    "PT": [
+      "Cem"
+    ],
+    "ES": [
+      "Cien"
+    ],
+    "EN": [
+      "Hundred"
+    ]
+  },
+  {
+    "IT": [
+      "Mille"
+    ],
+    "FR": [
+      "Mille"
+    ],
+    "RU": [
+      "\u0422\u044b\u0441\u044f\u0447\u0430",
+      "F"
+    ],
+    "CA": [
+      "Mil"
+    ],
+    "PT": [
+      "Mil"
+    ],
+    "ES": [
+      "Mil"
+    ],
+    "EN": [
+      "Thousand"
+    ]
+  },
+  {
+    "IT": [
+      "Milione"
+    ],
+    "FR": [
+      "Million"
+    ],
+    "RU": [
+      "\u041c\u0438\u043b\u043b\u0438\u043e\u043d"
+    ],
+    "CA": [
+      "Mili\u00f3"
+    ],
+    "PT": [
+      "Milh\u00e3o"
+    ],
+    "ES": [
+      "Mill\u00f3n"
+    ],
+    "EN": [
+      "Million"
+    ]
+  },
+  {
+    "IT": [
+      "Qui"
+    ],
+    "FR": [
+      "Ici"
+    ],
+    "RU": [
+      "\u0417\u0434\u0435\u0441\u044c, \u0412\u043e\u0442"
+    ],
+    "CA": [
+      "Aqu\u00ed"
+    ],
+    "PT": [
+      "Aqu\u00ed"
+    ],
+    "ES": [
+      "Aqu\u00ed"
+    ],
+    "EN": [
+      "Here"
+    ]
+  },
+  {
+    "IT": [
+      "L\u00e0"
+    ],
+    "FR": [
+      "L\u00e0"
+    ],
+    "RU": [
+      "\u0422\u0430\u043c"
+    ],
+    "CA": [
+      "Enll\u00e0"
+    ],
+    "PT": [
+      "L\u00e1"
+    ],
+    "ES": [
+      "All\u00ed"
+    ],
+    "EN": [
+      "There"
+    ]
+  },
+  {
+    "IT": [
+      "Questo"
+    ],
+    "FR": [
+      "Ce ici"
+    ],
+    "RU": [
+      "\u042d\u0442\u043e"
+    ],
+    "CA": [
+      "Aix\u00f2"
+    ],
+    "PT": [
+      "Isto"
+    ],
+    "ES": [
+      "Esto"
+    ],
+    "EN": [
+      "This"
+    ]
+  },
+  {
+    "IT": [
+      "Quelo"
+    ],
+    "FR": [
+      "Ce l\u00e0"
+    ],
+    "CA": [
+      "All\u00f2"
+    ],
+    "PT": [
+      "Isso, Aquilo"
+    ],
+    "ES": [
+      "Eso, Aquello"
+    ],
+    "EN": [
+      "That"
+    ]
+  },
+  {
+    "IT": [
+      "Su"
+    ],
+    "FR": [
+      "Dessus"
+    ],
+    "RU": [
+      "\u0412\u0432\u0435\u0440\u0445"
+    ],
+    "CA": [
+      "Adalt"
+    ],
+    "PT": [
+      "Acima"
+    ],
+    "ES": [
+      "Arriba"
+    ],
+    "EN": [
+      "Up"
+    ]
+  },
+  {
+    "IT": [
+      "Gi\u00f9"
+    ],
+    "FR": [
+      "Dessous"
+    ],
+    "RU": [
+      "\u0412\u043d\u0438\u0437"
+    ],
+    "CA": [
+      "Abaix"
+    ],
+    "PT": [
+      "Abaixo"
+    ],
+    "ES": [
+      "Abajo"
+    ],
+    "EN": [
+      "Down"
+    ]
+  },
+  {
+    "IT": [
+      "Sinistra"
+    ],
+    "FR": [
+      "Gauche"
+    ],
+    "RU": [
+      "\u0421\u043b\u0435\u0432\u0430"
+    ],
+    "CA": [
+      "Esquerra"
+    ],
+    "PT": [
+      "Esquerda"
+    ],
+    "ES": [
+      "Izquierda"
+    ],
+    "EN": [
+      "Left"
+    ]
+  },
+  {
+    "IT": [
+      "Destra"
+    ],
+    "FR": [
+      "Droite"
+    ],
+    "RU": [
+      "\u0421\u043f\u0440\u0430\u0432\u0430"
+    ],
+    "CA": [
+      "Dreta"
+    ],
+    "PT": [
+      "Direita"
+    ],
+    "ES": [
+      "Derecha"
+    ],
+    "EN": [
+      "Right"
+    ]
+  },
+  {
+    "IT": [
+      "Avanti"
+    ],
+    "FR": [
+      "Avant"
+    ],
+    "RU": [
+      "\u041f\u0435\u0440\u0435\u0434"
+    ],
+    "CA": [
+      "Endavant, Davant"
+    ],
+    "PT": [
+      "Frente"
+    ],
+    "ES": [
+      "Delante"
+    ],
+    "EN": [
+      "Front"
+    ]
+  },
+  {
+    "IT": [
+      "Dietro"
+    ],
+    "FR": [
+      "Derri\u00e8re"
+    ],
+    "RU": [
+      "\u0417\u0430"
+    ],
+    "CA": [
+      "Endarrera, Darrera"
+    ],
+    "PT": [
+      "Atr\u00e1s"
+    ],
+    "ES": [
+      "Detr\u00e1s"
+    ],
+    "EN": [
+      "Back"
+    ]
+  },
+  {
+    "IT": [
+      "Entrada",
+      "F"
+    ],
+    "FR": [
+      "Entr\u00e9e",
+      "F"
+    ],
+    "RU": [
+      "\u0412\u0445\u043e\u0434",
+      "M"
+    ],
+    "CA": [
+      "Entrada",
+      "F"
+    ],
+    "PT": [
+      "Entrada",
+      "F"
+    ],
+    "ES": [
+      "Entrada",
+      "F"
+    ],
+    "EN": [
+      "Entry"
+    ]
+  },
+  {
+    "IT": [
+      "Uscita",
+      "F"
+    ],
+    "FR": [
+      "Sortie",
+      "F"
+    ],
+    "RU": [
+      "\u0412\u044b\u0445\u043e\u0434",
+      "M"
+    ],
+    "CA": [
+      "Sortida",
+      "F"
+    ],
+    "PT": [
+      "Sa\u00edda",
+      "F"
+    ],
+    "ES": [
+      "Salida",
+      "F"
+    ],
+    "EN": [
+      "Exit"
+    ]
+  },
+  {
+    "IT": [
+      "Prima colazione",
+      "F"
+    ],
+    "FR": [
+      "P\u00e9tit d\u00e9juner",
+      "M"
+    ],
+    "RU": [
+      "\u0417\u0430\u0432\u0442\u0440\u0430\u043a",
+      "M"
+    ],
+    "CA": [
+      "Esmorzar",
+      "M"
+    ],
+    "PT": [
+      "Caf\u00e9 da manh\u00e3",
+      "M"
+    ],
+    "ES": [
+      "Desayuno",
+      "M"
+    ],
+    "EN": [
+      "Breakfast"
+    ]
+  },
+  {
+    "IT": [
+      "Pranzo",
+      "M"
+    ],
+    "FR": [
+      "D\u00e9juner",
+      "M"
+    ],
+    "RU": [
+      "\u041e\u0431\u0435\u0434",
+      "M"
+    ],
+    "CA": [
+      "Dinar",
+      "M"
+    ],
+    "PT": [
+      "Almo\u00e7o",
+      "M"
+    ],
+    "ES": [
+      "Comida",
+      "F"
+    ],
+    "EN": [
+      "Lunch"
+    ]
+  },
+  {
+    "IT": [
+      "Cena",
+      "F"
+    ],
+    "FR": [
+      "D\u00eener",
+      "M"
+    ],
+    "RU": [
+      "\u0423\u0436\u0438\u043d",
+      "M"
+    ],
+    "CA": [
+      "Sopar",
+      "M"
+    ],
+    "PT": [
+      "Jantar",
+      "M"
+    ],
+    "ES": [
+      "Cena",
+      "F"
+    ],
+    "EN": [
+      "Dinner"
+    ]
+  },
+  {
+    "IT": [
+      "Sempre"
+    ],
+    "FR": [
+      "Toujours"
+    ],
+    "RU": [
+      "\u0412\u0441\u0435\u0433\u0434\u0430"
+    ],
+    "CA": [
+      "Sempre"
+    ],
+    "PT": [
+      "Sempre"
+    ],
+    "ES": [
+      "Siempre"
+    ],
+    "EN": [
+      "Always"
+    ]
+  },
+  {
+    "IT": [
+      "Mai"
+    ],
+    "FR": [
+      "Jamais"
+    ],
+    "RU": [
+      "\u041d\u0438\u043a\u043e\u0433\u0434\u0430"
+    ],
+    "CA": [
+      "Mai"
+    ],
+    "PT": [
+      "Nunca"
+    ],
+    "ES": [
+      "Nunca, Jam\u00e1s"
+    ],
+    "EN": [
+      "Never"
+    ]
+  },
+  {
+    "IT": [
+      "Ieri",
+      "M"
+    ],
+    "FR": [
+      "Hier",
+      "M"
+    ],
+    "RU": [
+      "\u0412\u0447\u0435\u0440\u0430",
+      "F"
+    ],
+    "CA": [
+      "Ahir",
+      "M"
+    ],
+    "PT": [
+      "Ontem",
+      "M"
+    ],
+    "ES": [
+      "Ayer",
+      "M"
+    ],
+    "EN": [
+      "Yesterday"
+    ]
+  },
+  {
+    "IT": [
+      "Oggi",
+      "M"
+    ],
+    "FR": [
+      "Aujourd'hui",
+      "M"
+    ],
+    "RU": [
+      "\u0421\u0435\u0433\u043e\u0434\u043d\u044f",
+      "F"
+    ],
+    "CA": [
+      "Avui",
+      "M"
+    ],
+    "PT": [
+      "Hoje",
+      "M"
+    ],
+    "ES": [
+      "Hoy",
+      "M"
+    ],
+    "EN": [
+      "Today"
+    ]
+  },
+  {
+    "IT": [
+      "Domani",
+      "M"
+    ],
+    "FR": [
+      "Demain",
+      "M"
+    ],
+    "RU": [
+      "\u0417\u0430\u0432\u0442\u0440\u0430",
+      "F"
+    ],
+    "CA": [
+      "Dem\u00e0",
+      "M"
+    ],
+    "PT": [
+      "Amanh\u00e1",
+      "M"
+    ],
+    "ES": [
+      "Ma\u00f1ana (Pr\u00f3ximo d\u00eda)",
+      "M"
+    ],
+    "EN": [
+      "Tomorrow"
+    ]
+  },
+  {
+    "IT": [
+      "Giorno",
+      "M"
+    ],
+    "FR": [
+      "Jour",
+      "M"
+    ],
+    "RU": [
+      "\u0414\u0435\u043d\u044c",
+      "M"
+    ],
+    "CA": [
+      "Dia",
+      "M"
+    ],
+    "PT": [
+      "Dia",
+      "M"
+    ],
+    "ES": [
+      "D\u00eda",
+      "M"
+    ],
+    "EN": [
+      "Day"
+    ]
+  },
+  {
+    "IT": [
+      "Settimana",
+      "F"
+    ],
+    "FR": [
+      "Semaine",
+      "F"
+    ],
+    "RU": [
+      "\u041d\u0435\u0434\u0435\u043b\u044f",
+      "F"
+    ],
+    "CA": [
+      "Setmana",
+      "F"
+    ],
+    "PT": [
+      "Semana",
+      "F"
+    ],
+    "ES": [
+      "Semana",
+      "F"
+    ],
+    "EN": [
+      "Week"
+    ]
+  },
+  {
+    "IT": [
+      "Fine settimana",
+      "M"
+    ],
+    "FR": [
+      "Weekend",
+      "M"
+    ],
+    "RU": [
+      "\u0412\u044b\u0445\u043e\u0434\u043d\u044b\u0435"
+    ],
+    "CA": [
+      "Cap de setmana",
+      "M"
+    ],
+    "PT": [
+      "Fim de semana",
+      "M"
+    ],
+    "ES": [
+      "Fin de semana",
+      "M"
+    ],
+    "EN": [
+      "Weekend"
+    ]
+  },
+  {
+    "IT": [
+      "Luned\u00ec",
+      "M"
+    ],
+    "FR": [
+      "Lundi",
+      "M"
+    ],
+    "RU": [
+      "\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a",
+      "M"
+    ],
+    "CA": [
+      "Dilluns",
+      "M"
+    ],
+    "PT": [
+      "Segunda feira",
+      "F"
+    ],
+    "ES": [
+      "Lunes",
+      "M"
+    ],
+    "EN": [
+      "Monday"
+    ]
+  },
+  {
+    "IT": [
+      "Marted\u00ec",
+      "M"
+    ],
+    "FR": [
+      "Mardi",
+      "M"
+    ],
+    "RU": [
+      "\u0412\u0442\u043e\u0440\u043d\u0438\u043a",
+      "M"
+    ],
+    "CA": [
+      "Dimarts",
+      "M"
+    ],
+    "PT": [
+      "Ter\u00e7a feira",
+      "F"
+    ],
+    "ES": [
+      "Martes",
+      "M"
+    ],
+    "EN": [
+      "Tuesday"
+    ]
+  },
+  {
+    "IT": [
+      "Mercoled\u00ec",
+      "M"
+    ],
+    "FR": [
+      "Mercredi",
+      "M"
+    ],
+    "RU": [
+      "\u0421\u0440\u0435\u0434\u0430",
+      "F"
+    ],
+    "CA": [
+      "Dimecres",
+      "M"
+    ],
+    "PT": [
+      "Quarta feira",
+      "F"
+    ],
+    "ES": [
+      "Mi\u00e9rcoles",
+      "M"
+    ],
+    "EN": [
+      "Wednsday"
+    ]
+  },
+  {
+    "IT": [
+      "Gioved\u00ec",
+      "M"
+    ],
+    "FR": [
+      "Jeudi",
+      "M"
+    ],
+    "RU": [
+      "\u0427\u0435\u0442\u0432\u0435\u0440\u0433",
+      "M"
+    ],
+    "CA": [
+      "Dijous",
+      "M"
+    ],
+    "PT": [
+      "Quinta feira",
+      "F"
+    ],
+    "ES": [
+      "Jueves",
+      "M"
+    ],
+    "EN": [
+      "Thursday"
+    ]
+  },
+  {
+    "IT": [
+      "Venerd\u00ec",
+      "M"
+    ],
+    "FR": [
+      "Vendredi",
+      "M"
+    ],
+    "RU": [
+      "\u041f\u044f\u0442\u043d\u0438\u0446\u0430",
+      "F"
+    ],
+    "CA": [
+      "Divendres",
+      "M"
+    ],
+    "PT": [
+      "Sexta feira",
+      "F"
+    ],
+    "ES": [
+      "Viernes",
+      "M"
+    ],
+    "EN": [
+      "Friday"
+    ]
+  },
+  {
+    "IT": [
+      "Sabato",
+      "M"
+    ],
+    "FR": [
+      "Samedi",
+      "M"
+    ],
+    "RU": [
+      "\u0421\u0443\u0431\u0431\u043e\u0442\u0430",
+      "F"
+    ],
+    "CA": [
+      "Dissabte",
+      "M"
+    ],
+    "PT": [
+      "S\u00e1bado",
+      "M"
+    ],
+    "ES": [
+      "S\u00e1bado",
+      "M"
+    ],
+    "EN": [
+      "Saturday"
+    ]
+  },
+  {
+    "IT": [
+      "Domenica",
+      "F"
+    ],
+    "FR": [
+      "Dimanche",
+      "M"
+    ],
+    "RU": [
+      "\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435",
+      "N"
+    ],
+    "CA": [
+      "Diumenge",
+      "M"
+    ],
+    "PT": [
+      "Domingo",
+      "M"
+    ],
+    "ES": [
+      "Domingo",
+      "M"
+    ],
+    "EN": [
+      "Sunday"
+    ]
+  },
+  {
+    "IT": [
+      "Mese",
+      "M"
+    ],
+    "FR": [
+      "Mois",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u0435\u0441\u044f\u0446",
+      "M"
+    ],
+    "CA": [
+      "Mes",
+      "M"
+    ],
+    "PT": [
+      "M\u00eas",
+      "M"
+    ],
+    "ES": [
+      "Mes",
+      "M"
+    ],
+    "EN": [
+      "Month"
+    ]
+  },
+  {
+    "IT": [
+      "Gennaio",
+      "M"
+    ],
+    "FR": [
+      "Janvier",
+      "M"
+    ],
+    "RU": [
+      "\u042f\u043d\u0432\u0430\u0440\u044c",
+      "M"
+    ],
+    "CA": [
+      "Gener",
+      "M"
+    ],
+    "PT": [
+      "Janeiro",
+      "M"
+    ],
+    "ES": [
+      "Enero",
+      "M"
+    ],
+    "EN": [
+      "January"
+    ]
+  },
+  {
+    "IT": [
+      "Febbraio",
+      "M"
+    ],
+    "FR": [
+      "F\u00e9vrier",
+      "M"
+    ],
+    "RU": [
+      "\u0424\u0435\u0432\u0440\u0430\u043b\u044c",
+      "M"
+    ],
+    "CA": [
+      "Febrer",
+      "M"
+    ],
+    "PT": [
+      "Fevereiro",
+      "M"
+    ],
+    "ES": [
+      "Febrero",
+      "M"
+    ],
+    "EN": [
+      "February"
+    ]
+  },
+  {
+    "IT": [
+      "Marzo",
+      "M"
+    ],
+    "FR": [
+      "Mars",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u0430\u0440\u0442",
+      "M"
+    ],
+    "CA": [
+      "Mar\u00e7",
+      "M"
+    ],
+    "PT": [
+      "Mar\u00e7o",
+      "M"
+    ],
+    "ES": [
+      "Marzo",
+      "M"
+    ],
+    "EN": [
+      "March"
+    ]
+  },
+  {
+    "IT": [
+      "Aprile",
+      "M"
+    ],
+    "FR": [
+      "Avril",
+      "M"
+    ],
+    "RU": [
+      "\u0410\u043f\u0440\u0435\u043b\u044c",
+      "M"
+    ],
+    "CA": [
+      "Abril",
+      "M"
+    ],
+    "PT": [
+      "Abril",
+      "M"
+    ],
+    "ES": [
+      "Abril",
+      "M"
+    ],
+    "EN": [
+      "April"
+    ]
+  },
+  {
+    "IT": [
+      "Maggio",
+      "M"
+    ],
+    "FR": [
+      "Mai",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u0430\u0439",
+      "M"
+    ],
+    "CA": [
+      "Maig",
+      "M"
+    ],
+    "PT": [
+      "Maio",
+      "M"
+    ],
+    "ES": [
+      "Mayo",
+      "M"
+    ],
+    "EN": [
+      "May"
+    ]
+  },
+  {
+    "IT": [
+      "Giugno",
+      "M"
+    ],
+    "FR": [
+      "Juin",
+      "M"
+    ],
+    "RU": [
+      "\u0418\u044e\u043d\u044c",
+      "M"
+    ],
+    "CA": [
+      "Juny",
+      "M"
+    ],
+    "PT": [
+      "Junho",
+      "M"
+    ],
+    "ES": [
+      "Junio",
+      "M"
+    ],
+    "EN": [
+      "June"
+    ]
+  },
+  {
+    "IT": [
+      "Iuglio",
+      "M"
+    ],
+    "FR": [
+      "Juillet",
+      "M"
+    ],
+    "RU": [
+      "\u0418\u044e\u043b\u044c",
+      "M"
+    ],
+    "CA": [
+      "Juliol",
+      "M"
+    ],
+    "PT": [
+      "Julho",
+      "M"
+    ],
+    "ES": [
+      "Julio",
+      "M"
+    ],
+    "EN": [
+      "July"
+    ]
+  },
+  {
+    "IT": [
+      "Agosto",
+      "M"
+    ],
+    "FR": [
+      "Ao\u00fbt",
+      "M"
+    ],
+    "RU": [
+      "\u0410\u0432\u0433\u0443\u0441\u0442",
+      "M"
+    ],
+    "CA": [
+      "Agost",
+      "M"
+    ],
+    "PT": [
+      "Agosto",
+      "M"
+    ],
+    "ES": [
+      "Agosto",
+      "M"
+    ],
+    "EN": [
+      "August"
+    ]
+  },
+  {
+    "IT": [
+      "Settembre",
+      "M"
+    ],
+    "FR": [
+      "Septembre",
+      "M"
+    ],
+    "RU": [
+      "\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c",
+      "M"
+    ],
+    "CA": [
+      "Setembre",
+      "M"
+    ],
+    "PT": [
+      "Setembro",
+      "M"
+    ],
+    "ES": [
+      "Septiembre",
+      "M"
+    ],
+    "EN": [
+      "September"
+    ]
+  },
+  {
+    "IT": [
+      "Ottobre",
+      "M"
+    ],
+    "FR": [
+      "Octubre",
+      "M"
+    ],
+    "RU": [
+      "\u041e\u043a\u0442\u044f\u0431\u0440\u044c",
+      "M"
+    ],
+    "CA": [
+      "Octubre",
+      "M"
+    ],
+    "PT": [
+      "Outubro",
+      "M"
+    ],
+    "ES": [
+      "Octubre",
+      "M"
+    ],
+    "EN": [
+      "October"
+    ]
+  },
+  {
+    "IT": [
+      "Novembre",
+      "M"
+    ],
+    "FR": [
+      "Novembre",
+      "M"
+    ],
+    "RU": [
+      "\u041d\u043e\u044f\u0431\u0440\u044c",
+      "M"
+    ],
+    "CA": [
+      "Novembre",
+      "M"
+    ],
+    "PT": [
+      "Novembro",
+      "M"
+    ],
+    "ES": [
+      "Noviembre",
+      "M"
+    ],
+    "EN": [
+      "November"
+    ]
+  },
+  {
+    "IT": [
+      "Dicembre",
+      "M"
+    ],
+    "FR": [
+      "D\u00e9cembre",
+      "M"
+    ],
+    "RU": [
+      "\u0414\u0435\u043a\u0430\u0431\u0440\u044c",
+      "M"
+    ],
+    "CA": [
+      "Desembre",
+      "M"
+    ],
+    "PT": [
+      "Dezembro",
+      "M"
+    ],
+    "ES": [
+      "Diciembre",
+      "M"
+    ],
+    "EN": [
+      "December"
+    ]
+  },
+  {
+    "IT": [
+      "Stagione",
+      "F"
+    ],
+    "FR": [
+      "Saison",
+      "F"
+    ],
+    "RU": [
+      "\u0421\u0435\u0437\u043e\u043d",
+      "M"
+    ],
+    "CA": [
+      "Estaci\u00f3",
+      "F"
+    ],
+    "PT": [
+      "Esta\u00e7\u00e3o",
+      "F"
+    ],
+    "ES": [
+      "Estaci\u00f3n (Mes)",
+      "F"
+    ],
+    "EN": [
+      "Season"
+    ]
+  },
+  {
+    "IT": [
+      "Primavera",
+      "F"
+    ],
+    "FR": [
+      "Printemps",
+      "M"
+    ],
+    "RU": [
+      "\u0412\u0435\u0441\u043d\u0430",
+      "F"
+    ],
+    "PT": [
+      "Primavera",
+      "F"
+    ],
+    "ES": [
+      "Primavera",
+      "F"
+    ],
+    "EN": [
+      "Spring"
+    ]
+  },
+  {
+    "IT": [
+      "Estate",
+      "M"
+    ],
+    "FR": [
+      "Et\u00ea",
+      "M"
+    ],
+    "RU": [
+      "\u041b\u0435\u0442\u043e",
+      "N"
+    ],
+    "CA": [
+      "Estiu",
+      "M"
+    ],
+    "PT": [
+      "Ver\u00e3o",
+      "M"
+    ],
+    "ES": [
+      "Verano",
+      "M"
+    ],
+    "EN": [
+      "Summer"
+    ]
+  },
+  {
+    "IT": [
+      "Autunno",
+      "M"
+    ],
+    "FR": [
+      "Automne",
+      "M"
+    ],
+    "RU": [
+      "\u041e\u0441\u0435\u043d\u044c",
+      "F"
+    ],
+    "CA": [
+      "Tardor",
+      "M"
+    ],
+    "PT": [
+      "Outono",
+      "M"
+    ],
+    "ES": [
+      "Oto\u00f1o",
+      "M"
+    ],
+    "EN": [
+      "Autumn"
+    ]
+  },
+  {
+    "IT": [
+      "Inverno",
+      "M"
+    ],
+    "FR": [
+      "Hiver",
+      "M"
+    ],
+    "RU": [
+      "\u0417\u0438\u043c\u0430",
+      "F"
+    ],
+    "CA": [
+      "Hivern",
+      "F"
+    ],
+    "PT": [
+      "Inverno",
+      "M"
+    ],
+    "ES": [
+      "Invierno",
+      "M"
+    ],
+    "EN": [
+      "Winter"
+    ]
+  },
+  {
+    "IT": [
+      "Anno",
+      "M"
+    ],
+    "FR": [
+      "Ann\u00e9e",
+      "M"
+    ],
+    "RU": [
+      "\u0413\u043e\u0434",
+      "M"
+    ],
+    "CA": [
+      "Any",
+      "M"
+    ],
+    "PT": [
+      "Ano",
+      "M"
+    ],
+    "ES": [
+      "A\u00f1o",
+      "M"
+    ],
+    "EN": [
+      "Year"
+    ]
+  },
+  {
+    "IT": [
+      "Essere"
+    ],
+    "FR": [
+      "\u00catre"
+    ],
+    "CA": [
+      "Ser"
+    ],
+    "PT": [
+      "Ser"
+    ],
+    "ES": [
+      "Ser"
+    ],
+    "EN": [
+      "Be"
+    ]
+  },
+  {
+    "IT": [
+      "\u00c8"
+    ],
+    "FR": [
+      "Est"
+    ],
+    "CA": [
+      "\u00c9s"
+    ],
+    "PT": [
+      "\u00c9"
+    ],
+    "ES": [
+      "Es"
+    ],
+    "EN": [
+      "Is"
+    ]
+  },
+  {
+    "IT": [
+      "Avere"
+    ],
+    "FR": [
+      "Avoir"
+    ],
+    "CA": [
+      "Tenir"
+    ],
+    "PT": [
+      "Ter"
+    ],
+    "ES": [
+      "Haber, Tener"
+    ],
+    "EN": [
+      "Have"
+    ]
+  },
+  {
+    "IT": [
+      "Vogliere"
+    ],
+    "FR": [
+      "Vouloir"
+    ],
+    "RU": [
+      "\u0425\u043e\u0442\u0435\u0442\u044c"
+    ],
+    "CA": [
+      "Voler"
+    ],
+    "PT": [
+      "Querer"
+    ],
+    "ES": [
+      "Querer"
+    ],
+    "EN": [
+      "Want"
+    ]
+  },
+  {
+    "IT": [
+      "Potere"
+    ],
+    "FR": [
+      "Povoir"
+    ],
+    "RU": [
+      "\u0423\u043c\u0435\u0442\u044c, \u041c\u043e\u0447\u044c"
+    ],
+    "CA": [
+      "Poguer"
+    ],
+    "PT": [
+      "Poder"
+    ],
+    "ES": [
+      "Poder"
+    ],
+    "EN": [
+      "Can"
+    ]
+  },
+  {
+    "IT": [
+      "Andare"
+    ],
+    "FR": [
+      "Aller"
+    ],
+    "RU": [
+      "\u0418\u0434\u0442\u0438, \u0425\u043e\u0434\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Anar"
+    ],
+    "PT": [
+      "Ir"
+    ],
+    "ES": [
+      "Ir"
+    ],
+    "EN": [
+      "Go"
+    ]
+  },
+  {
+    "IT": [
+      "Venire"
+    ],
+    "FR": [
+      "Venir"
+    ],
+    "RU": [
+      "\u041f\u0440\u0438\u0439\u0442\u0438"
+    ],
+    "CA": [
+      "Venir"
+    ],
+    "PT": [
+      "Vir"
+    ],
+    "ES": [
+      "Venir"
+    ],
+    "EN": [
+      "Come"
+    ]
+  },
+  {
+    "IT": [
+      "Tornare"
+    ],
+    "FR": [
+      "Tourner"
+    ],
+    "RU": [
+      "\u0412\u0435\u0440\u043d\u0438\u0441\u044c"
+    ],
+    "CA": [
+      "Tornar"
+    ],
+    "PT": [
+      "Voltar"
+    ],
+    "ES": [
+      "Volver"
+    ],
+    "EN": [
+      "Come back"
+    ]
+  },
+  {
+    "IT": [
+      "Leggere"
+    ],
+    "FR": [
+      "Lire"
+    ],
+    "RU": [
+      "\u0427\u0438\u0442\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Llegir"
+    ],
+    "PT": [
+      "Ler"
+    ],
+    "ES": [
+      "Leer"
+    ],
+    "EN": [
+      "Read"
+    ]
+  },
+  {
+    "IT": [
+      "Scrivere"
+    ],
+    "FR": [
+      "\u00c9crire"
+    ],
+    "RU": [
+      "\u041f\u0438\u0441\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Escriure"
+    ],
+    "PT": [
+      "Escrever"
+    ],
+    "ES": [
+      "Escribir"
+    ],
+    "EN": [
+      "Write"
+    ]
+  },
+  {
+    "IT": [
+      "Annusare"
+    ],
+    "FR": [
+      "Renifler"
+    ],
+    "RU": [
+      "\u041d\u044e\u0445\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Ensumar"
+    ],
+    "PT": [
+      "Farejar"
+    ],
+    "ES": [
+      "Olfatear"
+    ],
+    "EN": [
+      "Sniff"
+    ]
+  },
+  {
+    "IT": [
+      "Odorare"
+    ],
+    "FR": [
+      "Sentir"
+    ],
+    "RU": [
+      "\u041d\u0430\u0445\u043d\u0443\u0442\u044c"
+    ],
+    "CA": [
+      "Olorar"
+    ],
+    "PT": [
+      "Cheirar"
+    ],
+    "ES": [
+      "Oler"
+    ],
+    "EN": [
+      "Smell"
+    ]
+  },
+  {
+    "IT": [
+      "Guardare"
+    ],
+    "FR": [
+      "Regarder"
+    ],
+    "RU": [
+      "\u0421\u043c\u043e\u0442\u0440\u0435\u0442\u044c"
+    ],
+    "CA": [
+      "Mirar"
+    ],
+    "PT": [
+      "Olhar"
+    ],
+    "ES": [
+      "Mirar"
+    ],
+    "EN": [
+      "Look, Watch"
+    ]
+  },
+  {
+    "IT": [
+      "Vedere"
+    ],
+    "FR": [
+      "Voir"
+    ],
+    "RU": [
+      "\u0412\u0438\u0434\u0435\u0442\u044c"
+    ],
+    "CA": [
+      "Veure"
+    ],
+    "PT": [
+      "Ver"
+    ],
+    "ES": [
+      "Ver"
+    ],
+    "EN": [
+      "See"
+    ]
+  },
+  {
+    "IT": [
+      "Cercare, Ricercare"
+    ],
+    "FR": [
+      "Chercher, Rechercher"
+    ],
+    "RU": [
+      "\u0418\u0441\u043a\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Buscar, Cercar"
+    ],
+    "PT": [
+      "Procurar"
+    ],
+    "ES": [
+      "Buscar"
+    ],
+    "EN": [
+      "Search"
+    ]
+  },
+  {
+    "IT": [
+      "Trovare"
+    ],
+    "FR": [
+      "Trouver"
+    ],
+    "RU": [
+      "\u041d\u0430\u0445\u043e\u0434\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Trobar"
+    ],
+    "PT": [
+      "Encontrar, Achar"
+    ],
+    "ES": [
+      "Encontrar"
+    ],
+    "EN": [
+      "Find"
+    ]
+  },
+  {
+    "IT": [
+      "Ascoltare"
+    ],
+    "FR": [
+      "\u00c9couter"
+    ],
+    "RU": [
+      "\u0421\u043b\u0443\u0448\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Escoltar"
+    ],
+    "PT": [
+      "Escutar"
+    ],
+    "ES": [
+      "Escuchar"
+    ],
+    "EN": [
+      "Listen"
+    ]
+  },
+  {
+    "IT": [
+      "Sentire"
+    ],
+    "FR": [
+      "Entendre"
+    ],
+    "RU": [
+      "\u0421\u043b\u044b\u0448\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Sento"
+    ],
+    "PT": [
+      "Ouvir"
+    ],
+    "ES": [
+      "O\u00edr"
+    ],
+    "EN": [
+      "Hear"
+    ]
+  },
+  {
+    "IT": [
+      "Parlare"
+    ],
+    "FR": [
+      "Parler"
+    ],
+    "RU": [
+      "\u0413\u043e\u0432\u043e\u0440\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Parlar"
+    ],
+    "PT": [
+      "Falar"
+    ],
+    "ES": [
+      "Hablar"
+    ],
+    "EN": [
+      "Speak"
+    ]
+  },
+  {
+    "IT": [
+      "Capire"
+    ],
+    "FR": [
+      "Comprendre"
+    ],
+    "RU": [
+      "\u041f\u043e\u043d\u0438\u043c\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Entendre"
+    ],
+    "PT": [
+      "Entender, Comprender"
+    ],
+    "ES": [
+      "Entender, Comprender"
+    ],
+    "EN": [
+      "Understand"
+    ]
+  },
+  {
+    "IT": [
+      "Imparare"
+    ],
+    "FR": [
+      "Apprendre"
+    ],
+    "RU": [
+      "\u0423\u0447\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Aprendre"
+    ],
+    "PT": [
+      "Aprender"
+    ],
+    "ES": [
+      "Aprender"
+    ],
+    "EN": [
+      "Learn"
+    ]
+  },
+  {
+    "IT": [
+      "Ricordare"
+    ],
+    "FR": [
+      "Souvenir"
+    ],
+    "RU": [
+      "\u041f\u043e\u043c\u043d\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Recordar, Enrecordar"
+    ],
+    "PT": [
+      "Lembrar"
+    ],
+    "ES": [
+      "Recordar"
+    ],
+    "EN": [
+      "Remember"
+    ]
+  },
+  {
+    "IT": [
+      "Dimenticare"
+    ],
+    "FR": [
+      "Oublier"
+    ],
+    "RU": [
+      "\u0417\u0430\u0431\u044b\u0432\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Oblidar"
+    ],
+    "PT": [
+      "Esquecer"
+    ],
+    "ES": [
+      "Olvidar"
+    ],
+    "EN": [
+      "Forget"
+    ]
+  },
+  {
+    "IT": [
+      "Sapere, Conoscere"
+    ],
+    "FR": [
+      "Savoir, Conna\u00eetre"
+    ],
+    "RU": [
+      "\u0417\u043d\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Sapiguer, Con\u00e8ixer"
+    ],
+    "PT": [
+      "Saber, Conhecer"
+    ],
+    "ES": [
+      "Saber, Conocer"
+    ],
+    "EN": [
+      "Know"
+    ]
+  },
+  {
+    "IT": [
+      "Pensare"
+    ],
+    "FR": [
+      "Penser"
+    ],
+    "RU": [
+      "\u0414\u0443\u043c\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Pensar"
+    ],
+    "PT": [
+      "Pensar, Achar"
+    ],
+    "ES": [
+      "Pensar"
+    ],
+    "EN": [
+      "Think"
+    ]
+  },
+  {
+    "IT": [
+      "Credere"
+    ],
+    "FR": [
+      "Croir"
+    ],
+    "RU": [
+      "\u0412\u0435\u0440\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Creure"
+    ],
+    "PT": [
+      "Acreditar"
+    ],
+    "ES": [
+      "Creer"
+    ],
+    "EN": [
+      "Believe"
+    ]
+  },
+  {
+    "IT": [
+      "Dormir"
+    ],
+    "FR": [
+      "Dormir"
+    ],
+    "RU": [
+      "\u0421\u043f\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Dormir"
+    ],
+    "PT": [
+      "Dormier"
+    ],
+    "ES": [
+      "Dormir"
+    ],
+    "EN": [
+      "Dormire"
+    ]
+  },
+  {
+    "IT": [
+      "Lavorare"
+    ],
+    "FR": [
+      "Travailler"
+    ],
+    "RU": [
+      "\u0420\u0430\u0431\u043e\u0442\u0430\u0442\u044c"
+    ],
+    "CA": [
+      "Treballar"
+    ],
+    "PT": [
+      "Trabalhar"
+    ],
+    "ES": [
+      "Trabajar"
+    ],
+    "EN": [
+      "Work"
+    ]
+  },
+  {
+    "IT": [
+      "Cucinare"
+    ],
+    "FR": [
+      "Cuisiner"
+    ],
+    "RU": [
+      "\u0413\u043e\u0442\u043e\u0432\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Cuinar"
+    ],
+    "PT": [
+      "Cozinhar"
+    ],
+    "ES": [
+      "Cocinar"
+    ],
+    "EN": [
+      "Cook"
+    ]
+  },
+  {
+    "IT": [
+      "Mangiare"
+    ],
+    "FR": [
+      "Manger"
+    ],
+    "RU": [
+      "\u0415\u0441\u0442\u044c"
+    ],
+    "CA": [
+      "Menjar"
+    ],
+    "PT": [
+      "Comer"
+    ],
+    "ES": [
+      "Comer"
+    ],
+    "EN": [
+      "Eat"
+    ]
+  },
+  {
+    "IT": [
+      "Bere"
+    ],
+    "FR": [
+      "Boire"
+    ],
+    "RU": [
+      "\u041f\u0438\u0442\u044c"
+    ],
+    "CA": [
+      "Beure"
+    ],
+    "PT": [
+      "Beber"
+    ],
+    "ES": [
+      "Beber"
+    ],
+    "EN": [
+      "Drink"
+    ]
+  },
+  {
+    "IT": [
+      "Buono"
+    ],
+    "FR": [
+      "Bon"
+    ],
+    "RU": [
+      "\u0425\u043e\u0440\u043e\u0448\u0438\u0439"
+    ],
+    "CA": [
+      "Bo"
+    ],
+    "PT": [
+      "Bom"
+    ],
+    "ES": [
+      "Bueno"
+    ],
+    "EN": [
+      "Good"
+    ]
+  },
+  {
+    "IT": [
+      "Cattivo"
+    ],
+    "FR": [
+      "Mauvais"
+    ],
+    "RU": [
+      "\u041f\u043b\u043e\u0445\u043e\u0439"
+    ],
+    "CA": [
+      "Dolent"
+    ],
+    "PT": [
+      "Ruim, Mau"
+    ],
+    "ES": [
+      "Malo"
+    ],
+    "EN": [
+      "Bad"
+    ]
+  },
+  {
+    "IT": [
+      "Bello, Carino"
+    ],
+    "FR": [
+      "Beau, Jolie"
+    ],
+    "RU": [
+      "\u041a\u0440\u0430\u0441\u0438\u0432\u0438\u0439"
+    ],
+    "CA": [
+      "Bonic, Maco"
+    ],
+    "PT": [
+      "Bonito, Lindo"
+    ],
+    "ES": [
+      "Bonito, Lindo"
+    ],
+    "EN": [
+      "Beautiful, Pretty"
+    ]
+  },
+  {
+    "IT": [
+      "Brutto"
+    ],
+    "FR": [
+      "Lleig"
+    ],
+    "RU": [
+      "\u0413\u043b\u0430\u0434\u043a\u0438\u0439"
+    ],
+    "CA": [
+      "Lleig"
+    ],
+    "PT": [
+      "Feio"
+    ],
+    "ES": [
+      "Feo"
+    ],
+    "EN": [
+      "Ugly"
+    ]
+  },
+  {
+    "IT": [
+      "Piccolo"
+    ],
+    "FR": [
+      "Petit"
+    ],
+    "RU": [
+      "\u041c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439"
+    ],
+    "CA": [
+      "Petit"
+    ],
+    "PT": [
+      "Pequeno"
+    ],
+    "ES": [
+      "Peque\u00f1o"
+    ],
+    "EN": [
+      "Small"
+    ]
+  },
+  {
+    "IT": [
+      "Grande"
+    ],
+    "FR": [
+      "Grand"
+    ],
+    "RU": [
+      "\u0411\u043e\u043b\u044c\u0448\u043e\u0439"
+    ],
+    "CA": [
+      "Gran"
+    ],
+    "PT": [
+      "Grande"
+    ],
+    "ES": [
+      "Grande"
+    ],
+    "EN": [
+      "Big"
+    ]
+  },
+  {
+    "IT": [
+      "Corto"
+    ],
+    "FR": [
+      "Court"
+    ],
+    "RU": [
+      "\u041a\u043e\u0440\u043e\u0442\u043a\u0438\u0439"
+    ],
+    "CA": [
+      "Curt"
+    ],
+    "PT": [
+      "Curto"
+    ],
+    "ES": [
+      "Corto"
+    ],
+    "EN": [
+      "Short"
+    ]
+  },
+  {
+    "IT": [
+      "Lungo"
+    ],
+    "FR": [
+      "Long"
+    ],
+    "RU": [
+      "\u0414\u043b\u0438\u043d\u043d\u044b\u0439"
+    ],
+    "CA": [
+      "Llarg"
+    ],
+    "PT": [
+      "Lungo"
+    ],
+    "ES": [
+      "Largo"
+    ],
+    "EN": [
+      "Long"
+    ]
+  },
+  {
+    "IT": [
+      "Colore",
+      "M"
+    ],
+    "FR": [
+      "Coleur",
+      "M"
+    ],
+    "RU": [
+      "\u0426\u0432\u0435\u0442",
+      "M"
+    ],
+    "CA": [
+      "Color",
+      "M"
+    ],
+    "PT": [
+      "Cor",
+      "M"
+    ],
+    "ES": [
+      "Color",
+      "M"
+    ],
+    "EN": [
+      "Color"
+    ]
+  },
+  {
+    "IT": [
+      "Colorato"
+    ],
+    "FR": [
+      "Color\u00e9"
+    ],
+    "RU": [
+      "\u041a\u0440\u0430\u0441\u043e\u0447\u043d\u044b\u0439"
+    ],
+    "CA": [
+      "Colorit"
+    ],
+    "PT": [
+      "Colorido"
+    ],
+    "ES": [
+      "Colorido"
+    ],
+    "EN": [
+      "Colorful"
+    ]
+  },
+  {
+    "IT": [
+      "Bianco"
+    ],
+    "FR": [
+      "Blanc"
+    ],
+    "RU": [
+      "\u0411\u0435\u043b\u044b\u0439"
+    ],
+    "CA": [
+      "Blanc"
+    ],
+    "PT": [
+      "Branco"
+    ],
+    "ES": [
+      "Blanco"
+    ],
+    "EN": [
+      "White"
+    ]
+  },
+  {
+    "IT": [
+      "Nero"
+    ],
+    "FR": [
+      "Noir"
+    ],
+    "RU": [
+      "\u0427\u0435\u0440\u043d\u044b\u0439"
+    ],
+    "CA": [
+      "Negre"
+    ],
+    "PT": [
+      "Preto"
+    ],
+    "ES": [
+      "Negro"
+    ],
+    "EN": [
+      "Black"
+    ]
+  },
+  {
+    "IT": [
+      "Grigio"
+    ],
+    "FR": [
+      "Gris"
+    ],
+    "RU": [
+      "\u0421\u0435\u0440\u044b\u0439"
+    ],
+    "CA": [
+      "Gris"
+    ],
+    "PT": [
+      "Cinza"
+    ],
+    "ES": [
+      "Gris"
+    ],
+    "EN": [
+      "Grey"
+    ]
+  },
+  {
+    "IT": [
+      "Rosso"
+    ],
+    "FR": [
+      "Rouge"
+    ],
+    "RU": [
+      "\u041a\u0440\u0430\u0441\u043d\u044b\u0439"
+    ],
+    "CA": [
+      "Vermell"
+    ],
+    "PT": [
+      "Vermelho"
+    ],
+    "ES": [
+      "Rojo"
+    ],
+    "EN": [
+      "Red"
+    ]
+  },
+  {
+    "IT": [
+      "Giallo"
+    ],
+    "FR": [
+      "Jaune"
+    ],
+    "RU": [
+      "\u0416\u0435\u043b\u0442\u044b\u0439"
+    ],
+    "CA": [
+      "Groc"
+    ],
+    "PT": [
+      "Amarelo"
+    ],
+    "ES": [
+      "Amarillo"
+    ],
+    "EN": [
+      "Yellow"
+    ]
+  },
+  {
+    "IT": [
+      "Verde"
+    ],
+    "FR": [
+      "Vert"
+    ],
+    "RU": [
+      "\u0417\u0435\u043b\u0435\u043d\u044b\u0439"
+    ],
+    "CA": [
+      "Vert"
+    ],
+    "PT": [
+      "Verde"
+    ],
+    "ES": [
+      "Verde"
+    ],
+    "EN": [
+      "Green"
+    ]
+  },
+  {
+    "IT": [
+      "Azzurro, Blu"
+    ],
+    "FR": [
+      "Bleu"
+    ],
+    "RU": [
+      "\u0413\u043e\u043b\u0443\u0431"
+    ],
+    "CA": [
+      "Blau"
+    ],
+    "PT": [
+      "Azul"
+    ],
+    "ES": [
+      "Azul"
+    ],
+    "EN": [
+      "Blu"
+    ]
+  },
+  {
+    "IT": [
+      "Marrone"
+    ],
+    "FR": [
+      "Marron"
+    ],
+    "RU": [
+      "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"
+    ],
+    "CA": [
+      "Marr\u00f3"
+    ],
+    "PT": [
+      "Marrom"
+    ],
+    "ES": [
+      "Marr\u00f3n"
+    ],
+    "EN": [
+      "Brown"
+    ]
+  },
+  {
+    "IT": [
+      "Arancione"
+    ],
+    "FR": [
+      "Orange"
+    ],
+    "RU": [
+      "\u041e\u0440\u0430\u043d\u0436\u0435\u0432\u044b\u0439"
+    ],
+    "CA": [
+      "Taronja"
+    ],
+    "PT": [
+      "Laranja"
+    ],
+    "ES": [
+      "Naranja"
+    ],
+    "EN": [
+      "Orange"
+    ]
+  },
+  {
+    "IT": [
+      "Casa",
+      "F"
+    ],
+    "FR": [
+      "Maison",
+      "F"
+    ],
+    "RU": [
+      "\u0414\u043e\u043c",
+      "M"
+    ],
+    "CA": [
+      "Casa",
+      "F"
+    ],
+    "PT": [
+      "Casa",
+      "F"
+    ],
+    "ES": [
+      "Hogar, Casa"
+    ],
+    "EN": [
+      "Home, House"
+    ]
+  },
+  {
+    "IT": [
+      "Cane",
+      "M"
+    ],
+    "FR": [
+      "Chien",
+      "M"
+    ],
+    "RU": [
+      "\u0421\u043e\u0431\u0430\u043a\u0430",
+      "F"
+    ],
+    "CA": [
+      "Gos",
+      "M"
+    ],
+    "PT": [
+      "Cachorro",
+      "M"
+    ],
+    "ES": [
+      "Perro",
+      "M"
+    ],
+    "EN": [
+      "Dog"
+    ]
+  },
+  {
+    "IT": [
+      "Gatto",
+      "M"
+    ],
+    "FR": [
+      "Chat",
+      "M"
+    ],
+    "RU": [
+      "\u041a\u043e\u0448\u043a\u0430",
+      "F"
+    ],
+    "CA": [
+      "Gat",
+      "M"
+    ],
+    "PT": [
+      "Gato",
+      "M"
+    ],
+    "ES": [
+      "Gato",
+      "M"
+    ],
+    "EN": [
+      "Cat"
+    ]
+  },
+  {
+    "IT": [
+      "Pane",
+      "M"
+    ],
+    "FR": [
+      "Pain",
+      "M"
+    ],
+    "RU": [
+      "\u0425\u043b\u0435\u0431",
+      "M"
+    ],
+    "CA": [
+      "Pa",
+      "M"
+    ],
+    "PT": [
+      "P\u00e3o",
+      "M"
+    ],
+    "ES": [
+      "Pan",
+      "M"
+    ],
+    "EN": [
+      "Bread"
+    ]
+  },
+  {
+    "IT": [
+      "Acqua",
+      "F"
+    ],
+    "FR": [
+      "Eau",
+      "F"
+    ],
+    "RU": [
+      "\u0412\u043e\u0434\u0430",
+      "F"
+    ],
+    "CA": [
+      "Aigua",
+      "F"
+    ],
+    "PT": [
+      "\u00c1gua",
+      "F"
+    ],
+    "ES": [
+      "Agua",
+      "F"
+    ],
+    "EN": [
+      "Water"
+    ]
+  },
+  {
+    "IT": [
+      "Latte",
+      "M"
+    ],
+    "FR": [
+      "Lait",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u043e\u043b\u043e\u043a\u043e",
+      "N"
+    ],
+    "CA": [
+      "Llet",
+      "M"
+    ],
+    "PT": [
+      "Leite",
+      "M"
+    ],
+    "ES": [
+      "Leche",
+      "F"
+    ],
+    "EN": [
+      "Milk"
+    ]
+  },
+  {
+    "IT": [
+      "Burro",
+      "M"
+    ],
+    "FR": [
+      "Beurre",
+      "M"
+    ],
+    "RU": [
+      "\u041c\u0430\u0441\u043b\u043e",
+      "N"
+    ],
+    "CA": [
+      "Mantega",
+      "F"
+    ],
+    "PT": [
+      "Manteiga",
+      "F"
+    ],
+    "ES": [
+      "Mantequilla",
+      "F"
+    ],
+    "EN": [
+      "Butter"
+    ]
+  },
+  {
+    "IT": [
+      "Mela",
+      "F"
+    ],
+    "FR": [
+      "Pomme",
+      "F"
+    ],
+    "RU": [
+      "\u042f\u0431\u043b\u043e\u043a\u043e",
+      "N"
+    ],
+    "CA": [
+      "Poma",
+      "F"
+    ],
+    "PT": [
+      "Ma\u00e7\u00e3",
+      "F"
+    ],
+    "ES": [
+      "Manzana",
+      "F"
+    ],
+    "EN": [
+      "Apple"
+    ]
+  },
+  {
+    "IT": [
+      "Carne",
+      "F"
+    ],
+    "FR": [
+      "Viande",
+      "F"
+    ],
+    "RU": [
+      "\u041c\u044f\u0441\u043e",
+      "N"
+    ],
+    "CA": [
+      "Carn",
+      "F"
+    ],
+    "PT": [
+      "Carne",
+      "F"
+    ],
+    "ES": [
+      "Carne",
+      "F"
+    ],
+    "EN": [
+      "Meat"
+    ]
+  },
+  {
+    "IT": [
+      "Pesce",
+      "M"
+    ],
+    "FR": [
+      "Poisson",
+      "M"
+    ],
+    "RU": [
+      "\u0420\u044b\u0431\u0430",
+      "F"
+    ],
+    "CA": [
+      "Peix",
+      "M"
+    ],
+    "PT": [
+      "Peixe",
+      "M"
+    ],
+    "ES": [
+      "Pez, Pescado",
+      "M"
+    ],
+    "EN": [
+      "Fish"
+    ]
+  },
+  {
+    "IT": [
+      "Verdura",
+      "F"
+    ],
+    "FR": [
+      "L\u00e9gume",
+      "F"
+    ],
+    "RU": [
+      "\u041e\u0432\u043e\u0449",
+      "M"
+    ],
+    "CA": [
+      "Verdura, Llegum",
+      "F"
+    ],
+    "PT": [
+      "Verdura, Legume",
+      "F"
+    ],
+    "ES": [
+      "Verdura, Legumbre",
+      "F"
+    ],
+    "EN": [
+      "Vegetable"
+    ]
+  },
+  {
+    "IT": [
+      "Frutta",
+      "F"
+    ],
+    "FR": [
+      "Fruit",
+      "M"
+    ],
+    "RU": [
+      "\u041f\u043b\u043e\u0434",
+      "M"
+    ],
+    "CA": [
+      "Fruita",
+      "F"
+    ],
+    "PT": [
+      "Fruta",
+      "F"
+    ],
+    "ES": [
+      "Fruta",
+      "F"
+    ],
+    "EN": [
+      "Fruit"
+    ]
+  },
+  {
+    "IT": [
+      "Pomodoro",
+      "M"
+    ],
+    "FR": [
+      "Tomate",
+      "F"
+    ],
+    "RU": [
+      "\u041f\u043e\u043c\u0438\u0434\u043e\u0440",
+      "M"
+    ],
+    "CA": [
+      "Tom\u00e0quet",
+      "M"
+    ],
+    "PT": [
+      "Tomate",
+      "M"
+    ],
+    "ES": [
+      "Tomate",
+      "M"
+    ],
+    "EN": [
+      "Tomato"
+    ]
+  },
+  {
+    "IT": [
+      "Meno male!"
+    ],
+    "FR": [
+      "Hereusement!"
+    ],
+    "RU": [
+      "\u042f \u0440\u0430\u0434, \u0421\u043b\u0430\u0432\u0430 \u0411\u043e\u0433\u0443!"
+    ],
+    "CA": [
+      "Menys mal!"
+    ],
+    "PT": [
+      "Menos mal!"
+    ],
+    "ES": [
+      "Menos mal!"
+    ],
+    "EN": [
+      "Luckily, Thank Goodness!"
+    ]
+  }
+]
