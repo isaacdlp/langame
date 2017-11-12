@@ -13,7 +13,7 @@ These are the formatting rules:
 * Each cell contains the translation for that concept and language
     * Leave empty if that concept does not apply / exist
     * The translation can contain multiple words, separated by `, ` (e.g. `Bye, Goodbye`)
-    * The translation can contain comments in parenthesis (e.g. `Mañana (Siguiente Día)`) that will be simply ignored.
+    * The translation can contain comments in parenthesis `()` (e.g. `Mañana (Siguiente Día)`) that will be simply ignored.
     * Optionally, assign **gender**
         * In some languages gender plays a very important role in language formation
         * From the Excel palette, color the cell:
