@@ -11,18 +11,18 @@
 # THE SOFTWARE.
 
 
-from openpyxl import load_workbook
 from random import choice
-import warnings, sys, json, re, unicodedata
+import warnings, sys, os, json, re, unicodedata
 warnings.simplefilter("ignore")
 
 
-filebase = "langame"
-lang_index = "EN"
+file_base = "langame"
+img_index = "EN"
+lang_index = "ES"
 lang_focus = None
 word_focus = 0
 
-action = "play"
+action = "crop_pics"
 if len(sys.argv) > 1:
     action = sys.argv[1]
     if len(sys.argv) > 2:
@@ -32,6 +32,8 @@ if len(sys.argv) > 1:
             map(lambda x: x.upper(), lang_focus)
             if "ALL" in lang_focus:
                 lang_focus = None
+            if lang_index in lang_focus:
+                raise BaseException("The index language cannot be among the focus languages")
             if len(sys.argv) > 4:
                 try:
                     word_focus = int(sys.argv[4])
@@ -58,9 +60,8 @@ repeat_reg = re.compile("((\w)\\2{1,})")
 replacements = (("й", "и"), ("ы", "и"), ("щ", "ш"), ("в", "б"))
 
 def do_clean(text):
-    for raw in note_reg.findall(text):
-        text = text.replace(raw, "")
-    text = clean_reg.sub("", text).lower()
+    text = note_reg.sub("", text).lower()
+    text = clean_reg.sub("", text)
     return text
 
 def do_normal(text):
@@ -94,9 +95,11 @@ def do_eval(guess, solutions):
 
 if action == "update":
 
+    from openpyxl import load_workbook
+
     # Update the JSON dictionary
 
-    wb = load_workbook(filename="%s.xlsx" % filebase)
+    wb = load_workbook(filename="%s.xlsx" % file_base)
     sh = wb[wb.sheetnames[0]]
     langs = []
 
@@ -141,21 +144,91 @@ if action == "update":
                 word[lang] = con
 
     print("Writing %i words to JSON" % len(words))
-    with open("%s.json" % filebase, "w") as f:
+    with open("%s.json" % file_base, "w") as f:
         json.dump(words, f)
+
+elif action == "get_pics":
+
+    from selenium import webdriver as web
+    from selenium.webdriver.chrome.options import Options
+    import requests as req
+
+    with open("%s.json" % file_base, "r") as f:
+        words = json.load(f)
+
+    search_url = "https://www.flickr.com/search/?license=4,5,9,10&dimension_search_mode=min&height=1024&width=1024&media=photos&text=%s"
+    view_url = "%ssizes/l"
+
+    options = Options()
+    options.add_argument("--disable-notifications")
+    browser = web.Chrome(chrome_options=options)
+    browser.set_window_size(1000, 1000)
+
+    for word in words:
+        if img_index in word:
+            sym = word[img_index][0]
+            sym = sym.split(", ")[0]
+            filename = "%s/%s" % (file_base, sym)
+            if not os.path.isfile("%s.jpg" % filename):
+                browser.get(search_url % do_clean(sym))
+                links = browser.find_elements_by_css_selector("div.photo-list-photo-interaction a.overlay")
+                if len(links) > 0:
+                    if len(links) > 10:
+                        links = links[:10]
+                    tags = []
+                    for link in links:
+                        tags.append(link.get_attribute("href"))
+                    for num, tag in enumerate(tags):
+                        browser.get(view_url % tag)
+                        img = browser.find_element_by_css_selector("div#allsizes-photo img")
+                        src = img.get_attribute("src")
+                        res = req.get(src, stream=True)
+                        imgname = "%s" % filename
+                        if num > 0:
+                            imgname = "%s-%i" % (imgname, num)
+                        with open("%s.jpg" % imgname, 'wb') as f:
+                            f.write(res.raw.data)
+                else:
+                    print("No pictures for '%s'" % sym)
+
+    browser.quit()
+
+elif action == "crop_pics":
+
+    # Crop pictures
+
+    from PIL import Image
+
+    img_size = 1024
+
+    for file in os.listdir(file_base):
+        if file.endswith(".jpg"):
+            img_file = "%s/%s" % (file_base, file)
+            im = Image.open(img_file)
+            width, height = im.size  # Get dimensions
+            if width != height:
+                img_width = width if width < img_size else img_size
+                img_height = height if height < img_size else img_size
+                img_width = min((img_width, img_height))
+                img_height = img_width
+                left = (width - img_width) / 2
+                top = (height - img_height) / 2
+                right = (width + img_width) / 2
+                bottom = (height + img_height) / 2
+                crop = im.crop((left, top, right, bottom))
+                crop.save(img_file, "JPEG")
+                print("Cropped %s" % file)
 
 else:
 
     # Play the game!
 
-    with open("%s.json" % filebase, "r") as f:
+    with open("%s.json" % file_base, "r") as f:
         words = json.load(f)
 
-    # In Python 3 keys() is an iterator, not a list
     if word_focus > 0 and not word_focus > len(words):
         words = words[-word_focus:]
     used = []
-
 
     rounds = 0
     score = 0.0
@@ -167,6 +240,7 @@ else:
         gen = None
         for i in range(100):
             word = choice(words)
+            # In Python 3 keys() is an iterator, not a list
             langs = list(word.keys())
             if lang_index in langs:
                 concept = word[lang_index][0]
