@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-11-14 13:35+0100\n"
+"PO-Revision-Date: 2017-11-14 13:40+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"Last-Translator: Isaac de la Pena <isaacdlp@gmail.com>\n"
+"Language: pt\n"
+"X-Poedit-SearchPath-0: langame.py\n"
+
+#: langame.py:40
+msgid "The index language cannot be among the focus languages"
+msgstr "O idioma do índice não pode estar entre os idiomas de prática"
+
+#: langame.py:45
+msgid "Wrong word focus number"
+msgstr "Número errado de palavras de prática"
+
+#: langame.py:82
+msgid "WRONG"
+msgstr "ERRADO"
+
+#: langame.py:89
+msgid "RIGHT"
+msgstr "CORRETO"
+
+#: langame.py:95
+msgid "ALMOST"
+msgstr "QUASE BOM"
+
+#: langame.py:130
+#, python-format
+msgid "Warning duplicate in %s: %s"
+msgstr "Advertência duplicação em %s: %s"
+
+#: langame.py:150
+#, python-format
+msgid "Writing %i words to JSON"
+msgstr "Escrevendo %i palavras em JSON"
+
+#: langame.py:196
+#, python-format
+msgid "No pictures for '%s'"
+msgstr "Sem imagens para ‘% s’"
+
+#: langame.py:224
+#, python-format
+msgid "Cropped %s"
+msgstr "Corto %s"
+
+#: langame.py:263
+msgid "Not enough words!"
+msgstr "Não há palavras suficientes!"
+
+#: langame.py:266
+#, python-format
+msgid "Round %i [%.2f] '%s' in %s"
+msgstr "Ronda %i [%.2f] ‘%s’ em %s"
+
+#: langame.py:271 langame.py:276
+#, python-format
+msgid "%s! It is '%s'"
+msgstr "%s! É ‘%s’"
+
+#: langame.py:273
+msgid "Which gender is it? [M]asculine, [N]eutral or [F]emenine?"
+msgstr "Qual é o sexo? [M]asculino, [N]eutro ou [F]eminino?"
+
+#: langame.py:284
+#, python-format
+msgid "Total points [%.2f] rounds [%i] accuracy [%.2f%%]"
+msgstr "Pontos totais [%.2f] rondas [%i] precisão [%.2f%%]"
+
+#: langame.py:285
+msgid "Thank you for playing!"
+msgstr "Obrigado por jogar!"

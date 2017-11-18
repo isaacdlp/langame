@@ -59,17 +59,17 @@ There are a couple of command-line parameters that can be used to customize the 
 `python langame.py play <lang_index> <lang_focus> <word_focus>`
 
 `lang_index` is your native language. Defaults to Spanish (ES)
-Your native language cannot be among the focus languages or it will throw an error.
+Your native language cannot be among the focus languages (below) or it will throw an error.
 
 `lang_focus` can be a language or comma-separated language list to focus on.
 Only questions from these languages will be asked if found.
 `ALL` refers to all possible languages (no focus)
 
-* `python langame.py play ru`
-* `python langame.py play it,pt`
+* `python langame.py play es ru`
+* `python langame.py play es it,pt`
 
 `word_focus` is the number of concepts to focus on, starting from the end.
 LanGame keeps the concepts stored in an ordered list, so that you can focus on the most recently added concepts.
 
-* `python langame.py play it,pt es 100`
-* `python langame.py play all es 25`
+* `python langame.py play es it,pt 100`
+* `python langame.py play es all 25`

@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# encoding: utf-8
+
 # Copyright (c) 2017 Isaac de la Pena (isaacdlp@alum.mit.edu)
 #
 # Open-sourced according to the MIT LICENSE
@@ -12,34 +15,41 @@
 
 
 from random import choice
-import warnings, sys, os, json, re, unicodedata
+import warnings, sys, os, json, shutil, re, unicodedata
 warnings.simplefilter("ignore")
+import gettext
 
 
 file_base = "langame"
 img_index = "EN"
-lang_index = "ES"
+lang_index = "EN"
 lang_focus = None
 word_focus = 0
 
-action = "crop_pics"
+action = "copy"
 if len(sys.argv) > 1:
     action = sys.argv[1]
     if len(sys.argv) > 2:
         lang_index = sys.argv[2].upper()
-        if len(sys.argv) > 3:
-            lang_focus = sys.argv[3].upper().split(",")
-            map(lambda x: x.upper(), lang_focus)
-            if "ALL" in lang_focus:
-                lang_focus = None
-            if lang_index in lang_focus:
-                raise BaseException("The index language cannot be among the focus languages")
-            if len(sys.argv) > 4:
-                try:
-                    word_focus = int(sys.argv[4])
-                except:
-                    print("Wrong word focus number")
 
+# Localization
+
+loc = gettext.translation('langame', localedir='i18n', languages=[lang_index])
+loc.install()
+_ = loc.gettext
+
+if len(sys.argv) > 3:
+    lang_focus = sys.argv[3].upper().split(",")
+    map(lambda x: x.upper(), lang_focus)
+    if "ALL" in lang_focus:
+        lang_focus = None
+    if lang_index in lang_focus:
+        raise BaseException(_("The index language cannot be among the focus languages"))
+    if len(sys.argv) > 4:
+        try:
+            word_focus = int(sys.argv[4])
+        except:
+            print(_("Wrong word focus number"))
 
 genders = {
     4: "M",
@@ -49,7 +59,7 @@ genders = {
 
 inputs = {
     "M": "M, М",
-    "F": "F, Ф",
+    "F": "F, Ф, Ж",
     "N": "N, Н"
 }
 
@@ -75,20 +85,20 @@ def do_normal(text):
     return text
 
 def do_eval(guess, solutions):
-    match = "WRONG"
+    match = _("WRONG")
     points = 0
     clean_guess = do_clean(guess)
     normal_guess = do_normal(clean_guess)
     for solution in solutions.split(", "):
         clean_sol = do_clean(solution)
         if clean_guess == clean_sol:
-            match = "RIGHT"
+            match = _("RIGHT")
             points = 0.5
             break
         else:
             normal_sol = do_normal(clean_sol)
             if normal_guess == normal_sol:
-                match = "ALMOST"
+                match = _("ALMOST")
                 points = 0.25
     return match, points
 
@@ -123,7 +133,7 @@ if action == "update":
             if len(word) > 1:
                 for lang, sym in word.items():
                     if sym in unique[lang]:
-                        print("Warning duplicate in %s: %s" % (lang, word[lang]))
+                        print(_("Warning duplicate in %s: %s") % (lang, word[lang]))
                     unique[lang].append(sym)
                 words.append(word)
         concept = sh.cell(row=row, column=1).value
@@ -143,11 +153,13 @@ if action == "update":
                     con.append(gen)
                 word[lang] = con
 
-    print("Writing %i words to JSON" % len(words))
-    with open("%s.json" % file_base, "w") as f:
+    print(_("Writing %i words to JSON") % len(words))
+    with open("%s/%s.json" % (file_base, file_base), "w") as f:
         json.dump(words, f)
 
 elif action == "get_pics":
+
+    # Get corresponding pictures from Flickr
 
     from selenium import webdriver as web
     from selenium.webdriver.chrome.options import Options
@@ -189,7 +201,7 @@ elif action == "get_pics":
                         with open("%s.jpg" % imgname, 'wb') as f:
                             f.write(res.raw.data)
                 else:
-                    print("No pictures for '%s'" % sym)
+                    print(_("No pictures for '%s'") % sym)
 
     browser.quit()
 
@@ -217,13 +229,24 @@ elif action == "crop_pics":
                 bottom = (height + img_height) / 2
                 crop = im.crop((left, top, right, bottom))
                 crop.save(img_file, "JPEG")
-                print("Cropped %s" % file)
+                print(_("Cropped %s") % file)
+
+elif action == "copy":
+
+    # Copy resources to LangSite and LangApp
+    with open("langdirs.json", "r") as f:
+        dirs = json.load(f)
+
+    for dest, src in dirs.items():
+        shutil.rmtree(dest, True)
+        shutil.copytree(src, dest)
+        print("%s : %s" % (dest, src))
 
 else:
 
     # Play the game!
 
-    with open("%s.json" % file_base, "r") as f:
+    with open("%s/%s.json" % (file_base, file_base), "r") as f:
         words = json.load(f)
 
     if word_focus > 0 and not word_focus > len(words):
@@ -256,20 +279,20 @@ else:
                         break
 
         if sym is None:
-            print("Not enough words!")
+            print(_("Not enough words!"))
             break
 
-        print("Round %i [%.2f] '%s' in %s" % (rounds, score, concept, lang))
+        print(_("Round %i [%.2f] '%s' in %s") % (rounds, score, concept, lang))
         guess = input()
         if guess == "@":
             break
         result, points = do_eval(guess, sym)
-        print("%s! It is '%s'" % (result, sym))
+        print(_("%s! It is '%s'") % (result, sym))
         if gen is not None:
-            print("Which gender is it? [M]asculine, [N]eutral or [F]emenine?")
+            print(_("Which gender is it? [M]asculine, [N]eutral or [F]emenine?"))
             guess = input()
             result, pts = do_eval(guess, inputs[gen])
-            print("%s! It is '%s'" % (result, gen))
+            print(_("%s! It is '%s'") % (result, gen))
             points += pts
         else:
             points *= 2
@@ -277,5 +300,5 @@ else:
 
     rounds -= 1
     accuracy = (score / rounds) * 100 if rounds > 0 else 0
-    print("Total points [%.2f] rounds [%i] accuracy [%.2f%%]" % (score, rounds, accuracy))
-    print("Thank you for playing!")
+    print(_("Total points [%.2f] rounds [%i] accuracy [%.2f%%]") % (score, rounds, accuracy))
+    print(_("Thank you for playing!"))
