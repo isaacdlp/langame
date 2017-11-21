@@ -41,10 +41,10 @@ _ = loc.gettext
 if len(sys.argv) > 3:
     lang_focus = sys.argv[3].upper().split(",")
     map(lambda x: x.upper(), lang_focus)
-    if "ALL" in lang_focus:
-        lang_focus = None
     if lang_index in lang_focus:
         raise BaseException(_("The index language cannot be among the focus languages"))
+    if "ALL" in lang_focus:
+        lang_focus = None
     if len(sys.argv) > 4:
         try:
             word_focus = int(sys.argv[4])
