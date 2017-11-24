@@ -26,7 +26,7 @@ lang_index = "EN"
 lang_focus = None
 word_focus = 0
 
-action = "copy"
+action = "play"
 if len(sys.argv) > 1:
     action = sys.argv[1]
     if len(sys.argv) > 2:
@@ -63,6 +63,7 @@ inputs = {
     "N": "N, Н"
 }
 
+split_reg = re.compile(", | / ")
 note_reg = re.compile("\([^\)]+\)")
 clean_reg = re.compile("[^\w]+")
 normal_reg = re.compile("[À-ÿьъ]+")
@@ -89,7 +90,7 @@ def do_eval(guess, solutions):
     points = 0
     clean_guess = do_clean(guess)
     normal_guess = do_normal(clean_guess)
-    for solution in solutions.split(", "):
+    for solution in split_reg.split(solutions):
         clean_sol = do_clean(solution)
         if clean_guess == clean_sol:
             match = _("RIGHT")
@@ -179,7 +180,7 @@ elif action == "get_pics":
     for word in words:
         if img_index in word:
             sym = word[img_index][0]
-            sym = sym.split(", ")[0]
+            sym = split_reg.split(sym)[0]
             filename = "%s/%s" % (file_base, sym)
             if not os.path.isfile("%s.jpg" % filename):
                 browser.get(search_url % do_clean(sym))
