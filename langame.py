@@ -290,7 +290,7 @@ else:
         result, points = do_eval(guess, sym)
         print(_("%s! It is '%s'") % (result, sym))
         if gen is not None:
-            print(_("Which gender is it? [M]asculine, [N]eutral or [F]emenine?"))
+            print(_("Which gender is it? [M]asculine, [N]eutral or [F]eminine?"))
             guess = input()
             result, pts = do_eval(guess, inputs[gen])
             print(_("%s! It is '%s'") % (result, gen))

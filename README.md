@@ -17,7 +17,7 @@ These are the formatting rules:
         * In some languages gender plays a very important role in language formation
         * From the Excel palette, color the cell:
             * BLUE for MASCULINE
-            * PINK for FEMENINE
+            * PINK for FEMININE
             * GREEN for NEUTRAL
         * Don't color it if gender does not apply / exist
 
